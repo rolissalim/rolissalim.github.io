@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkprofile=self.webpackChunkprofile||[]).push([[870],{1870:(e,t,n)=>{n.r(t),n.d(t,{default:()=>l});var c=n(7294);const l=function(){return c.createElement("div",null,"contact page")}}}]);

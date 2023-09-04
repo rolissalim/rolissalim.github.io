@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkprofile=self.webpackChunkprofile||[]).push([[664],{9664:(e,l,n)=>{n.r(l),n.d(l,{default:()=>t});var r=n(7294);const t=function(){return r.createElement("div",null,"Home")}}}]);
