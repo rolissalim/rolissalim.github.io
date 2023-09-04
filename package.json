@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage":"https://rolissalim.github.io/rolissalim.github.io",
+  "homepage": "https://rolissalim.github.io/rolissalim.github.io",
   "scripts": {
+    "predeploy": "NODE_ENV=production ENV_FILE=production webpack --config webpack.prod.ts && gzipper compress --verbose",
+    "deploy": "gh-pages -d NODE_ENV=production ENV_FILE=production webpack --config webpack.prod.ts && gzipper compress --verbose",
     "start": "NODE_ENV=development webpack serve --config webpack.dev.ts --history-api-fallback --hot --port 9000 --open",
-    "build:prod": "NODE_ENV=production ENV_FILE=production webpack --config webpack.prod.ts && gzipper compress --verbose ./build"
+    "build:prod": "NODE_ENV=production ENV_FILE=production webpack --config webpack.prod.ts && gzipper compress --verbose build"
   },
   "repository": {
     "type": "git",
@@ -51,6 +53,7 @@
     "extract-css-chunks-webpack-plugin": "^4.9.0",
     "file-loader": "^6.2.0",
     "fork-ts-checker-webpack-plugin": "^8.0.0",
+    "gh-pages": "^6.0.0",
     "gzipper": "^7.2.0",
     "html-webpack-plugin": "^5.5.3",
     "mini-css-extract-plugin": "^2.7.6",
