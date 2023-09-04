@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrolissalim_github_io=self.webpackChunkrolissalim_github_io||[]).push([[870],{1870:(e,t,i)=>{i.r(t),i.d(t,{default:()=>s});var l=i(7294);const s=function(){return l.createElement("div",null,"contact page")}}}]);
