@@ -3,21 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage":"https://rolissalim.github.io/build",
   "scripts": {
     "start": "NODE_ENV=development webpack serve --config webpack.dev.ts --history-api-fallback --hot --port 9000 --open",
     "build:prod": "NODE_ENV=production ENV_FILE=production webpack --config webpack.prod.ts && gzipper compress --verbose ./build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rolissalim/profile.git"
+    "url": "git+https://github.com/rolissalim/rolissalim.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rolissalim/profile/issues"
+    "url": "https://github.com/rolissalim/rolissalim.github.io/issues"
   },
-  "homepage": "https://github.com/rolissalim/profile#readme",
   "devDependencies": {
     "@babel/core": "^7.22.11",
     "@babel/plugin-transform-runtime": "^7.22.10",
