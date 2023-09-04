@@ -1,6 +1,7 @@
 # rolissalim.github.io
 
-# profile
+# instalation github pages
+- npm i -D gh-pages
 
 # instalation libary
 

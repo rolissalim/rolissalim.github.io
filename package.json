@@ -1,14 +1,14 @@
 {
-  "name": "profile",
+  "name": "rolissalim.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "homepage": "https://rolissalim.github.io/rolissalim.github.io",
   "scripts": {
-    "predeploy": "NODE_ENV=production ENV_FILE=production webpack --config webpack.prod.ts && gzipper compress --verbose",
-    "deploy": "gh-pages -d NODE_ENV=production ENV_FILE=production webpack --config webpack.prod.ts && gzipper compress --verbose",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "NODE_ENV=development webpack serve --config webpack.dev.ts --history-api-fallback --hot --port 9000 --open",
-    "build:prod": "NODE_ENV=production ENV_FILE=production webpack --config webpack.prod.ts && gzipper compress --verbose build"
+    "build": "NODE_ENV=production ENV_FILE=production webpack --config webpack.prod.ts && gzipper compress --verbose build"
   },
   "repository": {
     "type": "git",
