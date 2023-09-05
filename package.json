@@ -1,9 +1,9 @@
 {
   "name": "rolissalim.github.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
-  "homepage": "https://rolissalim.github.io/rolissalim.github.io/build",
+  "homepage": "https://rolissalim.github.io/rolissalim.github.io",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
