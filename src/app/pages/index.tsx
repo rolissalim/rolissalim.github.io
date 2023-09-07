@@ -7,6 +7,7 @@ import Error404 from "@app/components/Error/Error404";
 import TopBarLoader from '@app/components/Loader/TopBarLoader';
 import ProjectRoute from '@app/pages/Project/ProjectRoute';
 import ExploreRoute from './Explore/ExploreRoute';
+import FreelanceRoute from './Freelance/FreelanceRoute';
 
 
 
@@ -35,12 +36,10 @@ export default function AppsPage(): React.ReactElement {
     return (
         <>
             <Routes>
-                <Route path="" element={<AppsLayout />}>
-                    <Route path="/" element={<HomePage />}></Route>
+                <Route path="/*" element={<AppsLayout />}>
+                    <Route path="" element={<HomePage />}></Route>
                     <Route path="home" element={<HomePage />}></Route>
                     <Route path="about-me" element={<AboutMePage />}></Route>
-                    <Route path="contact" element={<ContactPage />}></Route>
-
                     <Route path="project/*" element={
                         <React.Suspense fallback={<TopBarLoader />}>
                             <ProjectRoute />
@@ -49,6 +48,11 @@ export default function AppsPage(): React.ReactElement {
                     <Route path="explore/*" element={
                         <React.Suspense fallback={<TopBarLoader />}>
                             <ExploreRoute />
+                        </React.Suspense>
+                    }></Route>
+                    <Route path="freelance/*" element={
+                        <React.Suspense fallback={<TopBarLoader />}>
+                            <FreelanceRoute />
                         </React.Suspense>
                     }></Route>
                     <Route path="*" element={<Error404 type="admin" />}></Route>
