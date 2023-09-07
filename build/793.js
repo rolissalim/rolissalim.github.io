@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrolissalim_github_io=self.webpackChunkrolissalim_github_io||[]).push([[793],{2793:(e,i,t)=>{t.r(i),t.d(i,{default:()=>l});var u=t(7294);const l=function(){return u.createElement("div",null,"About Me")}}}]);
