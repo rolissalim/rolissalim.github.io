@@ -1,4 +1,4 @@
-import { UpperCaseEachWord } from '@app/helpers/StringHelper'
+import { UpperCaseEachWord } from '@app/helpers/String.helper'
 import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'

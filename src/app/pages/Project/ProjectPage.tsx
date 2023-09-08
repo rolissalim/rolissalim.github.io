@@ -8,6 +8,7 @@ const ProjectPage = () => {
         <>
             <div>
                 <h2>Data Projects</h2>
+                <hr className='text-muted' />
                 <ListCatalog data={dataProjects} />
             </div >
         </>

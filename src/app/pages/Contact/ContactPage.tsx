@@ -4,6 +4,7 @@ function ContactPage() {
     return (
         <div>
             contact page
+            <hr className='text-muted' />
         </div>
     )
 }

@@ -8,6 +8,7 @@ function ExplorePage() {
         <>
             <div>
                 <h2>Data Explores</h2>
+                <hr className='text-muted' />
                 <ListCatalog data={dataExplores} />
             </div >
         </>

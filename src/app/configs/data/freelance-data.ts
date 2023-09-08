@@ -1,12 +1,14 @@
+import { timeFormat } from "@app/helpers/Time.helper";
+
 export function freelanceData() {
     return [
         {
-            name: "Upgrade Aplikasi Outage PLN KALIMANTAN",
+            name: "Outage PLN Kalimantan V2",
             alias: "",
             headline: false,
             program_language: "typescript,react js",
             framework: "",
-            library: "Google Map, webpack, babel, eslint, code-splitting, compores, optimitation",
+            library: "Google Map, webpack, babel, eslint, react-router-dom, readux@toolkit, code-splitting, compores, optimitation",
             short_description: "",
             description: "",
             task: [
@@ -15,15 +17,16 @@ export function freelanceData() {
                 "menganalisis relasi table",
             ],
             company: "PT Quadran",
-            period: "2020"
+            period: timeFormat("2020-09", "MMMM YYYY"),
+            status: "production"
         },
         {
-            name: "Upgrade Aplikasi SIAP PLN KALIMANTAN",
+            name: "SIAP PLN Kalimantan ",
             alias: "",
             headline: false,
             program_language: "typescript,react js",
             framework: "",
-            library: "Google Map, webpack, babel, eslint, code-splitting, compores, optimitation",
+            library: "Google Map, webpack, babel, eslint, react-router-dom, readux@toolkit, code-splitting, compores, optimitation",
             short_description: "",
             description: "",
             task: [
@@ -32,15 +35,16 @@ export function freelanceData() {
                 "menganalisis relasi table",
             ],
             company: "PT Quadran",
-            period: "2020"
+            status: "production",
+            period: timeFormat("2020-09", "MMMM YYYY"),
         },
         {
-            name: "Upgrade Aplikasi InfoPDM PLN KALIMANTAN",
+            name: "InfoPDM PLN Kalimantan V2",
             alias: "",
             headline: false,
             program_language: "typescript, react js",
             framework: "",
-            library: "Google Map, webpack, babel, eslint, code-splitting, compores, optimitation",
+            library: "Google Map, webpack, babel, eslint, react-router-dom, readux@toolkit, code-splitting, compores, optimitation",
             short_description: "",
             description: "",
             task: [
@@ -49,15 +53,16 @@ export function freelanceData() {
                 "menganalisis relasi table",
             ],
             company: "PT Quadran",
-            period: "2020"
+            status: "production",
+            period: timeFormat("2020-09", "MMMM YYYY"),
         },
         {
-            name: "Pembuatan Aplikasi  Sistem Informasi SI-KEREN",
+            name: "Sistem Informasi SI-KEREN",
             alias: "",
             headline: false,
-            program_language: "typescript, react js",
-            framework: "",
-            library: "Google Map, webpack, babel, eslint, code-splitting, compores, optimitation",
+            program_language: "PHP",
+            framework: "Laravel 8",
+            library: "",
             short_description: "",
             description: "",
             task: [
@@ -68,45 +73,36 @@ export function freelanceData() {
 
             ],
             company: "PT Quadran",
-            period: "2020"
+            period: "2020",
+            status: "production"
         },
         {
-            name: "Aplikasi Sistem Informasi di PLN Kalimantan",
+            name: "Sistem Informasi di PLN Kalimantan",
             alias: "",
             headline: false,
-            program_language: "typescript, react js",
-            framework: "",
-            library: "Google Map, webpack, babel, eslint, code-splitting, compores, optimitation",
+            program_language: "PHP",
+            framework: "code igniter 2",
+            library: "Google Map, highchart, datatable, jqwidget",
             short_description: "",
             description: "",
             task: "",
             company: "PT Quadran",
-            period: "2018"
-        },
-        {
-            name: "INTELLIGENCE MEDIA MANAGEMENT (IMM)",
-            alias: "IMM",
-            headline: true,
-            program_language: "PHP",
-            framework: "Zend",
-            library: "Google Map, Highcart,",
-            short_description: "",
-            description: "",
-            task: "",
-            company: "PT Quadran"
+            period: "2018",
+            status: "production"
         },
         {
             name: "Rest API GO TRANS",
             alias: "",
             headline: true,
             program_language: "PHP",
-            framework: "PHALCON",
+            framework: "Phalcon",
             library: "",
             short_description: "",
             description: "",
             task: "",
-            company: "PT Quadran",
-            period: "2016"
+            company: "-",
+            period: "2016",
+            status: "production"
         }
     ]
 }

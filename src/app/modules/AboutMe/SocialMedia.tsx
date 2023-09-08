@@ -1,45 +1,22 @@
 import CardComponent from '@app/components/Card/CardComponent'
+import { socialMediaData } from '@app/configs/data/social-media'
 import React from 'react'
 
 function SocialMedia() {
+    const data = socialMediaData()
     return (
         <CardComponent>
-            <div className='d-flex justify-content-between'>
-                <div>
-                    Github
-                </div>
-                <div>
+            {data?.map((item: any, index: number) =>
+                <div key={index} className='d-flex justify-content-between'>
+                    <div>
+                        {item?.name}
+                    </div>
+                    <div>
+
+                    </div>
 
                 </div>
-
-            </div>
-            <div className='d-flex justify-content-between'>
-                <div>
-                    GitLab
-                </div>
-                <div>
-
-                </div>
-
-            </div>
-            <div className='d-flex justify-content-between'>
-                <div>
-                    Instagram
-                </div>
-                <div>
-
-                </div>
-
-            </div>
-            <div className='d-flex justify-content-between'>
-                <div>
-                    Youtube
-                </div>
-                <div>
-
-                </div>
-
-            </div>
+            )}
         </CardComponent>
     )
 }

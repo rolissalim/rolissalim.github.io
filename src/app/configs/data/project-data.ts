@@ -1,7 +1,10 @@
+import { timeFormat } from "@app/helpers/Time.helper";
+import i18n from 'i18next';
+
 export function projectData() {
     return [
         {
-            name: "Management Caleg PDI Banten I",
+            name: "Caleg PDI Banten I",
             alias: "",
             headline: false,
             program_language: "typescript, react js",
@@ -17,11 +20,11 @@ export function projectData() {
 
             ],
             company: "PT eBdesk Teknologi",
-            period: "2023",
+            period: timeFormat("2023-09", "MMMM YYYY"),
             images: null,
         },
         {
-            name: "Management Caleg CMS",
+            name: "Caleg CMS FE",
             alias: "",
             headline: true,
             program_language: "typescript, react js",
@@ -37,11 +40,12 @@ export function projectData() {
 
             ],
             company: "PT eBdesk Teknologi",
-            period: "2023",
+            period: timeFormat("2023-08", "MMMM YYYY"),
             images: null,
+            link: "https://calegbanten.galangsuara.id/"
         },
         {
-            name: "Management Caleg BE",
+            name: "Caleg CMS BE",
             alias: "",
             headline: true,
             program_language: "typescript, express JS",
@@ -55,11 +59,11 @@ export function projectData() {
 
             ],
             company: "PT eBdesk Teknologi",
-            period: "2023",
+            period: timeFormat("2023-08", "MMMM YYYY"),
             images: null,
         },
         {
-            name: "Management Caleg PDI Kab Ngawi",
+            name: "Caleg PDI Kab Ngawi",
             alias: "",
             headline: false,
             program_language: "typescript, react js",
@@ -75,8 +79,10 @@ export function projectData() {
 
             ],
             company: "PT eBdesk Teknologi",
-            period: "2023",
+            period: timeFormat("2023-07", "MMMM YYYY"),
             images: null,
+            status: "maintenance",
+            link: "https://calegpartai.galangsuara.id/signin"
         },
         {
             name: "Galang Suara 2024",
@@ -95,52 +101,10 @@ export function projectData() {
 
             ],
             company: "PT eBdesk Teknologi",
-            period: "2023",
+            period: `${timeFormat("2023-03", "MMMM")} - ${timeFormat("2023-07", "MMMM YYYY")}`,
             images: null,
-        },
-        {
-            name: "Smart City Client V2",
-            alias: "",
-            headline: true,
-            program_language: "typescript, react js",
-            framework: "",
-            library: "Highcart, Google map, bootstrap, jwt, ",
-            short_description: "",
-            description: "",
-            task: [
-                "role sebagai frontend",
-                "membuat fitur baru",
-                "membuat code standar",
-                "membuat compenents yang reuseable",
-
-            ],
-            company: "PT eBdesk Teknologi",
-            period: "2022",
-            images: [
-                "/static/smart-city-v2/menu.png",
-                "/static/smart-city-v2/angkutan.png",
-                "/static/smart-city-v2/agenda.png",
-                "/static/smart-city-v2/video.png",
-            ],
-        },
-        {
-            name: "Analisis Data kependudukan",
-            alias: "",
-            headline: false,
-            program_language: "PHP",
-            framework: "laravel 8",
-            library: "Highcart, Google map, bootstrap, jwt, ",
-            short_description: "",
-            description: "",
-            task: [
-                "role sebagai frontend",
-                "membuat fitur baru",
-                "membuat code standar",
-                "membuat compenents yang reuseable",
-
-            ],
-            company: "PT eBdesk Teknologi",
-            period: "2021"
+            status: "production and developments",
+            link: "https://cms.galangsuara.id/signin"
         },
         {
             name: "Smart City CMS V2",
@@ -159,7 +123,36 @@ export function projectData() {
 
             ],
             company: "PT eBdesk Teknologi",
-            period: "2021"
+            period: "2021",
+            status: "pending development"
+        },
+        {
+            name: "Smart City Client V2",
+            alias: "",
+            headline: true,
+            program_language: "typescript, react js",
+            framework: "",
+            library: "Highcart, Google map, bootstrap, jwt, ",
+            short_description: "",
+            description: "",
+            task: [
+                "role sebagai frontend",
+                "membuat fitur baru",
+                "membuat code standar",
+                "membuat compenents yang reuseable",
+
+            ],
+            company: "PT eBdesk Teknologi",
+            period: `2019 - ${i18n.t("now")}`,
+
+            images: [
+                "/static/smart-city-v2/menu.png",
+                "/static/smart-city-v2/angkutan.png",
+                "/static/smart-city-v2/agenda.png",
+                "/static/smart-city-v2/video.png",
+            ],
+            status: "maintenance",
+            link: "https://web2.sekota.id/kabsintang/menu/grid"
         },
         {
             name: "Smart City Client",
@@ -172,7 +165,8 @@ export function projectData() {
             description: "",
             task: "role sebagai frontend. maintenance dan membuat fitur baru.",
             company: "PT eBdesk Teknologi",
-            period: "2018 - sekarang"
+            period: "2018-2021",
+            status: "not active"
         },
         {
             name: "Aplikasi Smart City",
@@ -185,20 +179,9 @@ export function projectData() {
             description: "",
             task: "role sebagai frontend. maintenance dan membuat fitur baru.",
             company: "PT eBdesk Teknologi",
-            period: "2018 - sekarang"
-        },
-        {
-            name: "Aplikasi Politica Mobile",
-            alias: "",
-            headline: false,
-            program_language: "Typescript",
-            framework: "React native",
-            library: "Highcart",
-            short_description: "",
-            description: "",
-            task: "role sebagai frontend. membuat aplikasi semua fitur.",
-            company: "PT eBdesk Teknologi",
-            period: "2017"
+            period: `2018 - ${i18n.t("now")}`,
+            status: "maintenance",
+            link: "https://cc.sekota.id/monitoring"
         },
         {
             name: "Aplikasi Politica",
@@ -211,11 +194,12 @@ export function projectData() {
             description: "",
             task: "role sebagai frontend. membuat aplikasi semua fitur.",
             company: "PT eBdesk Teknologi",
-            period: "2016"
+            period: "2019",
+            status: "maintenace"
         },
         {
             name: "Aplikasi Integrasi Media Sosial Terhadap Paslon Wakil Rakyat",
-            alias: "IPA",
+            alias: "",
             headline: false,
             program_language: "PHP",
             framework: "Code Igniter 2",
@@ -224,10 +208,25 @@ export function projectData() {
             description: "",
             task: "role sebagai frontend. membuat aplikasi semua fitur.",
             company: "PT eBdesk Teknologi",
-            period: ""
+            status: "production",
+            period: "2018"
         },
         {
-            name: "INTELLIGENCE PERCEPTION ANALYSIS (IPA)",
+            name: "Intelligence Media Analist",
+            alias: "IMA",
+            headline: false,
+            program_language: "Angular 8",
+            framework: "Zend",
+            library: "Google Map, Highcart, ",
+            short_description: "aplikasi ini adalah upgrade tool dari aplikasi IMM hanya dari segi UI dan role sedikit berbeda",
+            description: "",
+            task: "maintenance aplikasi ",
+            company: "PT eBdesk Teknologi",
+            status: "maintenance",
+            period: "2018"
+        },
+        {
+            name: "Intelligence Perception Analysis",
             alias: "IPA",
             headline: false,
             program_language: "PHP",
@@ -237,34 +236,11 @@ export function projectData() {
             description: "",
             task: "maintenance dan fitur baru",
             company: "PT eBdesk Teknologi",
-            period: ""
+            period: "2016-2018",
+            status: "production"
         },
         {
-            name: "RE-STRUCTURE INTELLIGENCE MEDIA MANAGEMENT (IMM)",
-            alias: "IMM",
-            headline: false,
-            program_language: "PHP",
-            framework: "Code Igniter 2",
-            library: "Google Map, Highcart,",
-            short_description: "",
-            description: "",
-            task: "",
-            company: "PT eBdesk Teknologi"
-        },
-        {
-            name: "INTELLIGENCE MEDIA ANALIST (IMA)",
-            alias: "IMA",
-            headline: false,
-            program_language: "Angular 8",
-            framework: "Zend",
-            library: "Google Map, Highcart, ",
-            short_description: "aplikasi ini adalah upgrade tool dari aplikasi IMM hanya dari segi UI dan role sedikit berbeda",
-            description: "",
-            task: "maintenance aplikasi ",
-            company: "PT eBdesk Teknologi"
-        },
-        {
-            name: "INTELLIGENCE MEDIA MANAGEMENT (IMM)",
+            name: "Intelligence Media Management",
             alias: "IMM",
             headline: false,
             program_language: "PHP",
@@ -273,7 +249,9 @@ export function projectData() {
             short_description: "Analisis konten media yang di ambil dari media news yang terpercaya",
             description: "Aplikasi berbasis web. Aplikasi ini digunakan untuk keperluan  ",
             task: "half fullstack, maintenance aplikasi dan fitur baru",
-            company: "PT eBdesk Teknologi"
+            company: "PT eBdesk Teknologi",
+            period: "2014 - 2017",
+            status: "production"
         },
 
     ]
