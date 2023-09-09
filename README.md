@@ -21,3 +21,7 @@
 # installation in library package.json
 - npm install OR npm install --force
 - yarn install 
+
+
+# errors sass 
+- downgrade sass to 1.64.2

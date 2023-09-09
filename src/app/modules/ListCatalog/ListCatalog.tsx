@@ -10,6 +10,8 @@ const ListCatalog = ({
     data
 }: IListCatalog) => {
     const { t } = useTranslation()
+    console.log();
+
     return (
         <>
             <Row>
@@ -17,7 +19,7 @@ const ListCatalog = ({
                     <Col lg={3} key={index}>
                         <CardImage image={item?.images?.[0] || "-"}>
                             <Card.Title>
-                                {item?.name}
+                                {item?.name} {item?.images?.[0]}
                             </Card.Title>
                             <div className="d-flex flex-row mb-3">
                                 <div className="">Period</div>

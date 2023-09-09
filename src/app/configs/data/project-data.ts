@@ -102,7 +102,13 @@ export function projectData() {
             ],
             company: "PT eBdesk Teknologi",
             period: `${timeFormat("2023-03", "MMMM")} - ${timeFormat("2023-07", "MMMM YYYY")}`,
-            images: null,
+            images: [
+                "/static/galang-suara-2024/dashboard-2.png",
+                "/static/galang-suara-2024/dashboard.png",
+                "/static/galang-suara-2024/administrator.png",
+                "/static/galang-suara-2024/timses.png",
+                "/static/galang-suara-2024/login.png",
+            ],
             status: "production and developments",
             link: "https://cms.galangsuara.id/signin"
         },
@@ -198,7 +204,7 @@ export function projectData() {
             status: "maintenace"
         },
         {
-            name: "Aplikasi Integrasi Media Sosial Terhadap Paslon Wakil Rakyat",
+            name: "Media Sosial Terhadap Paslon Wakil Rakyat",
             alias: "",
             headline: false,
             program_language: "PHP",
