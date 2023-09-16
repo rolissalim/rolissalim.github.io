@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrolissalim_github_io=self.webpackChunkrolissalim_github_io||[]).push([[983],{2983:(e,t,l)=>{l.r(t),l.d(t,{default:()=>u});var a=l(9397),n=l(2372),r=l(7294);const u=function(){var e=(0,a.o)();return r.createElement(r.Fragment,null,r.createElement("div",null,r.createElement("h2",null,"Data Projects"),r.createElement(n.Z,{data:e})))}}}]);
