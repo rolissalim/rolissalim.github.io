@@ -1,25 +1,18 @@
 import CardComponent from '@app/components/Card/CardComponent'
+import { biodata } from '@app/configs/data/biodata'
 import React from 'react'
 
 function Profile() {
+    const data = biodata()
     return (
         <CardComponent>
-            <div>
-                <div> Fullname</div>
-                <div></div>
-                <hr />
-            </div>
-            <div>
-                <div> Email</div>
-                <div>nurdin.rolissalim@gmail.com</div>
-                <div>nurdinif14@gmail.com</div>
-                <hr />
-            </div>
-            <div>
-                <div> Address</div>
-                <div></div>
-                <hr />
-            </div>
+            {data?.map((item: any, index: number) =>
+                <div key={index}>
+                    <div>{item?.key}</div>
+                    <div>{item?.value}</div>
+                    <hr />
+                </div>
+            )}
         </CardComponent>
     )
 }

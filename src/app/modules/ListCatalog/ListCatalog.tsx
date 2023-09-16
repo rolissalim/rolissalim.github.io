@@ -19,11 +19,19 @@ const ListCatalog = ({
                     <Col lg={3} key={index}>
                         <CardImage image={item?.images?.[0] || "-"}>
                             <Card.Title>
-                                {item?.name} {item?.images?.[0]}
+                                <div className='text-wrap'>{item?.name}</div>
                             </Card.Title>
-                            <div className="d-flex flex-row mb-3">
+                            <div className="d-flex flex-row mb-1">
+                                <div className="">Tools</div>
+                                <div className="ms-2">{item?.program_language}</div>
+                            </div>
+                            <div className="d-flex flex-row mb-1">
                                 <div className="">Period</div>
                                 <div className="ms-2">{item?.period}</div>
+                            </div>
+                            <div className="d-flex flex-row mb-1">
+                                <div className="">Status</div>
+                                <div className="ms-2">{item?.status}</div>
                             </div>
                         </CardImage>
                     </Col>

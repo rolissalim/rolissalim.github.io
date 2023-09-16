@@ -7,12 +7,12 @@ function SocialMedia() {
     return (
         <CardComponent>
             {data?.map((item: any, index: number) =>
-                <div key={index} className='d-flex justify-content-between'>
-                    <div>
+                <div key={index} className='mb-2'>
+                    <h6>
                         {item?.name}
-                    </div>
-                    <div>
-
+                    </h6>
+                    <div className='ms-3 text-muted fs-6'>
+                        {item?.link}
                     </div>
 
                 </div>

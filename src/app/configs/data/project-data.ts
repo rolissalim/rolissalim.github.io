@@ -7,7 +7,7 @@ export function projectData() {
             name: "Caleg PDI Banten I",
             alias: "",
             headline: false,
-            program_language: "typescript, react js",
+            program_language: "typescript, react js, ",
             framework: "",
             library: "echart, Google map, bootstrap, jwt, ",
             short_description: "",
@@ -22,6 +22,7 @@ export function projectData() {
             company: "PT eBdesk Teknologi",
             period: timeFormat("2023-09", "MMMM YYYY"),
             images: null,
+            status: "Maintenance"
         },
         {
             name: "Caleg CMS FE",
@@ -42,7 +43,8 @@ export function projectData() {
             company: "PT eBdesk Teknologi",
             period: timeFormat("2023-08", "MMMM YYYY"),
             images: null,
-            link: "https://calegbanten.galangsuara.id/"
+            link: "https://calegbanten.galangsuara.id/",
+            status: "Development"
         },
         {
             name: "Caleg CMS BE",
@@ -61,6 +63,7 @@ export function projectData() {
             company: "PT eBdesk Teknologi",
             period: timeFormat("2023-08", "MMMM YYYY"),
             images: null,
+            status: "Development"
         },
         {
             name: "Caleg PDI Kab Ngawi",
@@ -81,7 +84,7 @@ export function projectData() {
             company: "PT eBdesk Teknologi",
             period: timeFormat("2023-07", "MMMM YYYY"),
             images: null,
-            status: "maintenance",
+            status: "Maintenance",
             link: "https://calegpartai.galangsuara.id/signin"
         },
         {
@@ -103,14 +106,13 @@ export function projectData() {
             company: "PT eBdesk Teknologi",
             period: `${timeFormat("2023-03", "MMMM")} - ${timeFormat("2023-07", "MMMM YYYY")}`,
             images: [
-                "/static/galang-suara-2024/dashboard-2.png",
                 "/static/galang-suara-2024/dashboard.png",
+                "/static/galang-suara-2024/dashboard-2.png",
                 "/static/galang-suara-2024/administrator.png",
-                "/static/galang-suara-2024/timses.png",
                 "/static/galang-suara-2024/login.png",
             ],
-            status: "production and developments",
-            link: "https://cms.galangsuara.id/signin"
+            status: "Maintenance",
+            link: "https://cms.galangsuara.id"
         },
         {
             name: "Smart City CMS V2",
@@ -130,7 +132,7 @@ export function projectData() {
             ],
             company: "PT eBdesk Teknologi",
             period: "2021",
-            status: "pending development"
+            status: "Pending development"
         },
         {
             name: "Smart City Client V2",
@@ -157,7 +159,7 @@ export function projectData() {
                 "/static/smart-city-v2/agenda.png",
                 "/static/smart-city-v2/video.png",
             ],
-            status: "maintenance",
+            status: "Maintenance",
             link: "https://web2.sekota.id/kabsintang/menu/grid"
         },
         {
@@ -175,7 +177,7 @@ export function projectData() {
             status: "not active"
         },
         {
-            name: "Aplikasi Smart City",
+            name: "Smart City",
             alias: "",
             headline: false,
             program_language: "Angular 2",
@@ -186,22 +188,22 @@ export function projectData() {
             task: "role sebagai frontend. maintenance dan membuat fitur baru.",
             company: "PT eBdesk Teknologi",
             period: `2018 - ${i18n.t("now")}`,
-            status: "maintenance",
+            status: "Maintenance",
             link: "https://cc.sekota.id/monitoring"
         },
         {
-            name: "Aplikasi Politica",
+            name: "Politica",
             alias: "",
             headline: false,
-            program_language: "Typescript",
-            framework: "Angular 8",
+            program_language: "Typescript, Angular 8",
+            framework: "",
             library: "Highcart",
             short_description: "",
             description: "",
             task: "role sebagai frontend. membuat aplikasi semua fitur.",
             company: "PT eBdesk Teknologi",
             period: "2019",
-            status: "maintenace"
+            status: "Production"
         },
         {
             name: "Media Sosial Terhadap Paslon Wakil Rakyat",
@@ -214,7 +216,7 @@ export function projectData() {
             description: "",
             task: "role sebagai frontend. membuat aplikasi semua fitur.",
             company: "PT eBdesk Teknologi",
-            status: "production",
+            status: "Production",
             period: "2018"
         },
         {
@@ -228,7 +230,7 @@ export function projectData() {
             description: "",
             task: "maintenance aplikasi ",
             company: "PT eBdesk Teknologi",
-            status: "maintenance",
+            status: "Maintenance",
             period: "2018"
         },
         {
@@ -243,7 +245,7 @@ export function projectData() {
             task: "maintenance dan fitur baru",
             company: "PT eBdesk Teknologi",
             period: "2016-2018",
-            status: "production"
+            status: "Production"
         },
         {
             name: "Intelligence Media Management",
@@ -257,7 +259,7 @@ export function projectData() {
             task: "half fullstack, maintenance aplikasi dan fitur baru",
             company: "PT eBdesk Teknologi",
             period: "2014 - 2017",
-            status: "production"
+            status: "Production"
         },
 
     ]

@@ -11,15 +11,15 @@ export function socialMediaData() {
         },
         {
             name: "youtube",
-            link: "",
+            link: "https://www.youtube.com/@nurdinrolissalim",
         },
         {
             name: "linkedIn",
-            link: "",
+            link: "https://www.linkedin.com/in/nurdin-rolissalim-11208a119/",
         },
         {
             name: "instagram",
-            link: "",
+            link: "https://www.instagram.com/nurdin_rolissalim/",
         },
 
     ]

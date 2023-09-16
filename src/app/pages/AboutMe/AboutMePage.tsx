@@ -9,16 +9,16 @@ function AboutMePage() {
     return (
         <>
             <Row>
-                <Col lg={4}>
+                <Col lg={5}>
                     <ProfileImage />
                 </Col>
-                <Col lg={8}>
+                <Col lg={7}>
                     <Profile />
                 </Col>
-                <Col lg={4}>
+                <Col lg={5}>
                    <SocialMedia />
                 </Col>
-                <Col lg={8}>
+                <Col lg={7}>
                     
                 </Col>
             </Row>

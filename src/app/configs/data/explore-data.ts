@@ -10,15 +10,13 @@ export function exploreData() {
             short_description: "",
             description: "",
             task: [
-                "role sebagai frontend",
+                "role sebagai fullstack",
                 "membuat fitur baru",
                 "membuat code standar",
-                "membuat compenents yang reuseable",
-
             ],
             company: "PT eBdesk Teknologi",
             period: "2021",
-            status: "explore"
+            status: "change to react js"
         },
         {
             name: "Aplikasi Politica Mobile",
@@ -31,10 +29,11 @@ export function exploreData() {
             description: "",
             task: "role sebagai frontend. membuat aplikasi semua fitur.",
             company: "PT eBdesk Teknologi",
-            period: "2017"
+            period: "2017",
+            status: "not publish"
         },
         {
-            name: "RE-Structure Intellegence Media Management",
+            name: "RE-Structure IMM",
             alias: "IMM",
             headline: false,
             program_language: "PHP",
@@ -43,10 +42,12 @@ export function exploreData() {
             short_description: "",
             description: "",
             task: "",
-            company: "PT eBdesk Teknologi"
+            company: "PT eBdesk Teknologi",
+            period: 2015,
+            status: "development"
         },
         {
-            name: "Upgrade Smart City CMS DARI ANGULAR 2 KE ANGULAR 9",
+            name: "Smart City CMS V2",
             alias: "",
             headline: true,
             program_language: "typecript, Angular 9",
@@ -57,7 +58,7 @@ export function exploreData() {
             task: "",
             company: "PT Ebdesk Teknologi",
             period: "2018",
-            status: ""
+            status: "pending"
         },
     ]
 }
