@@ -29,17 +29,17 @@ function HomePage() {
     return (
         <>
             <div className='mb-1'>
-                <h4>{t("Latest Projects")}</h4>
+                <h5>{t("Latest Projects")}</h5>
                 <hr className='text-muted' />
                 <ListCatalog data={dataProjects} />
             </div>
             <div className='mb-1'>
-                <h4>{t("Latest Freelances")}</h4>
+                <h5>{t("Latest Freelances")}</h5>
                 <hr className='text-muted' />
                 <ListCatalog data={dataFreelances} />
             </div>
             <div className='mb-1'>
-                <h4>{t("Latest Explores")}</h4>
+                <h5>{t("Latest Explores")}</h5>
                 <hr className='text-muted' />
                 <ListCatalog data={dataExplores} />
             </div>

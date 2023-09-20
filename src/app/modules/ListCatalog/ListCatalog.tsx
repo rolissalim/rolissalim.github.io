@@ -1,7 +1,11 @@
+import { ModalData } from '@app/components'
 import CardImage from '@app/components/Card/CardImage'
-import React from 'react'
-import { Card, Col, Row } from 'react-bootstrap'
+import { statusConfig } from '@app/configs/status.config'
+import { get } from 'lodash'
+import React, { useState } from 'react'
+import { Badge, Card, Col, Row } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
+import ListCatalogDetail from './ListCatalogDetail'
 
 interface IListCatalog {
     data: any
@@ -10,33 +14,43 @@ const ListCatalog = ({
     data
 }: IListCatalog) => {
     const { t } = useTranslation()
-    console.log();
-
+    const [dataSelected, setDataSelected] = useState<any>()
+    const [modal, setModal] = useState<any>({
+        show: false,
+        size: "lg",
+        title: "Data Detail"
+    })
+    const handleClick = (item: any) => {
+        setDataSelected(() => { return item })
+        setModal((prev: any) => {
+            return { ...prev, show: true }
+        })
+    }
     return (
         <>
             <Row>
                 {data?.map((item: any, index: number) =>
                     <Col lg={3} key={index}>
-                        <CardImage image={item?.images?.[0] || "-"}>
-                            <Card.Title>
+                        <CardImage
+                            handleSelected={handleClick}
+                            item={item}
+                            className='shadow-sm' image={item?.images?.[0] || "-"}>
+                            <Card.Title className='h6'>
                                 <div className='text-wrap'>{item?.name}</div>
                             </Card.Title>
-                            <div className="d-flex flex-row mb-1">
-                                <div className="">Tools</div>
-                                <div className="ms-2">{item?.program_language}</div>
+                            <div> {item?.program_language} </div>
+                            <div className="mb-1 fs-7 text-muted">{item?.short_description}</div>
+                            <div className="d-flex justify-content-between mb-1">
+                                <div className="">{item?.period}</div>
+                                <div className=""><Badge bg={get(statusConfig(), item?.status) || "primary"}>{item?.status}</Badge></div>
                             </div>
-                            <div className="d-flex flex-row mb-1">
-                                <div className="">Period</div>
-                                <div className="ms-2">{item?.period}</div>
-                            </div>
-                            <div className="d-flex flex-row mb-1">
-                                <div className="">Status</div>
-                                <div className="ms-2">{item?.status}</div>
-                            </div>
-                        </CardImage>
-                    </Col>
+                        </CardImage >
+                    </Col >
                 )}
             </Row>
+            <ModalData modalProps={modal} >
+                <ListCatalogDetail dataSelected={dataSelected} />
+            </ModalData>
         </>
     )
 }

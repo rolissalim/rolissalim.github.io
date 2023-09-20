@@ -21,7 +21,7 @@ function ProfileImage() {
     return (
         <CardComponent className='mb-2'>
             <div className='container-image-profile mx-auto d-block'>
-                <LazyImage src={image} className="fit rounded " />
+                <LazyImage src={image} className="fit rounded-circle " />
             </div>
             <div className='text-center'>
                 Full Stack Developer

@@ -18,10 +18,10 @@ export function biodata() {
             key: "Email",
             value: ["nurdinif14@gmail.com", " nurdin.rolissalim@gmail.com"]
         },
-        {
-            key: "Address",
-            value: ""
-        },
+        // {
+        //     key: "Address",
+        //     value: ""
+        // },
     ]
 }
 

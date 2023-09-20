@@ -44,7 +44,7 @@ export function exploreData() {
             task: "",
             company: "PT eBdesk Teknologi",
             period: 2015,
-            status: "development"
+            status: "has been upgraded"
         },
         {
             name: "Smart City CMS V2",
@@ -58,7 +58,7 @@ export function exploreData() {
             task: "",
             company: "PT Ebdesk Teknologi",
             period: "2018",
-            status: "pending"
+            status: "Pending"
         },
     ]
 }

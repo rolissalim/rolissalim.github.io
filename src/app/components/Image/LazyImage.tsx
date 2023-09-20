@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 
-const LazyImage = ({defaultImage='/static/avatar.png', ...imageProps}:any) => {
+const LazyImage = ({ defaultImage = '/static/no-image.svg', ...imageProps }: any) => {
   const [shouldLoad, setShouldLoad] = useState(false);
   const placeholderRef = useRef(null);
 
@@ -16,13 +16,13 @@ const LazyImage = ({defaultImage='/static/avatar.png', ...imageProps}:any) => {
     }
   }, [shouldLoad, placeholderRef]);
 
-  if(imageProps.src=="/cdnnull"){
-    return <img src={defaultImage} className={imageProps?.className}/> 
+  if (imageProps.src == "/cdnnull") {
+    return <img src={defaultImage} className={imageProps?.className} />
   }
 
   return (shouldLoad
-    ? <img {...imageProps} onError={(e:any)=>{e.target.onerror = null; e.target.src=defaultImage}}/> 
-    : 
+    ? <img {...imageProps} onError={(e: any) => { e.target.onerror = null; e.target.src = defaultImage }} />
+    :
     <>
       <div className="img-placeholder" ref={placeholderRef}>No Image</div>
     </>

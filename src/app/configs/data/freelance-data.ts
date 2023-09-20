@@ -18,7 +18,7 @@ export function freelanceData() {
             ],
             company: "PT Quadran",
             period: timeFormat("2020-09", "MMMM YYYY"),
-            status: "production"
+            status: "Production"
         },
         {
             name: "SIAP PLN Kalimantan ",
@@ -35,7 +35,7 @@ export function freelanceData() {
                 "menganalisis relasi table",
             ],
             company: "PT Quadran",
-            status: "production",
+            status: "Production",
             period: timeFormat("2020-09", "MMMM YYYY"),
         },
         {
@@ -53,17 +53,17 @@ export function freelanceData() {
                 "menganalisis relasi table",
             ],
             company: "PT Quadran",
-            status: "production",
+            status: "Production",
             period: timeFormat("2020-09", "MMMM YYYY"),
         },
         {
-            name: "Sistem Informasi SI-KEREN",
+            name: "SI-KEREN DPPKB Bandung",
             alias: "",
-            headline: false,
+            headline: true,
             program_language: "PHP",
             framework: "Laravel 8",
             library: "",
-            short_description: "",
+            short_description: "Aplikasi pelaporan penyuluhan KB",
             description: "",
             task: [
                 "Role sebagai Leader",
@@ -74,7 +74,7 @@ export function freelanceData() {
             ],
             company: "PT Quadran",
             period: "2020",
-            status: "production"
+            status: "Production"
         },
         {
             name: "Sistem Informasi di PLN Kalimantan",
@@ -88,7 +88,7 @@ export function freelanceData() {
             task: "",
             company: "PT Quadran",
             period: "2018",
-            status: "production"
+            status: "Production"
         },
         {
             name: "Rest API GO TRANS",
@@ -102,7 +102,7 @@ export function freelanceData() {
             task: "",
             company: "-",
             period: "2016",
-            status: "production"
+            status: "Production"
         }
     ]
 }
