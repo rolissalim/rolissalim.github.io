@@ -105,7 +105,7 @@ export function freelanceData() {
         {
             name: "Rest API GO TRANS",
             alias: "",
-            headline: true,
+            headline: false,
             program_language: "PHP",
             framework: "Phalcon",
             library: "Phalcon",
@@ -116,6 +116,74 @@ export function freelanceData() {
             period: "2016",
             images: [
                 "/static/gotrans/home.png"
+            ],
+            status: "Production"
+        },
+        {
+            name: "Inventori Obat",
+            alias: "",
+            headline: false,
+            program_language: "PHP",
+            framework: "",
+            library: "jQuery,Bootstrap",
+            short_description: "Aplikasi ini dibuat untuk menentukan pengendalian dan perencanaan obat di Dinas Kesehatan Kota Bandung",
+            description: 
+            `Aplikasi ini implementasi metode Singel Moving Avaragge untuk mengetahui jumlah kebutuhan obat 
+            dan metode Economic Quantity Order untuk menentukan jumlah obat yang harus dipesan.
+            Aplikasi digunakan untuk kebutuhan skripsi`,
+            task: [
+                "analisis kasus",
+                "membuat UI/UX",
+                "menentukan alur program",
+                "membuat crud data yang dibutuhkan",
+                "implementasi metode Analytical Hierarchy Proses dalam menentukan potensial aset ",
+                "bugfix"
+            ],
+            company: "PT. KAI DAOP 2 Bandung",
+            period: timeFormat("2013-06", "MMMM YYYY"),
+            images: null,
+            status: "Production"
+        },
+        {
+            name: "GIS Potensial Aset",
+            alias: "",
+            headline: false,
+            program_language: "PHP",
+            framework: "",
+            library: "jQuery,Bootstrap",
+            short_description: "Aplikasi ini dibuat untuk menentukan potensial dari aset PT. KAI DAOP 2 Bandung.",
+            description: "Aplikasi ini implementasi metode Analytical Hierarchy Proses dalam menentukan petensial dari aset yang ada di PT. KAI DAOP 2 Bandung. Aplikasi digunakan untuk kebutuhan skripsi",
+            task: [
+                "analisis kasus",
+                "membuat UI/UX",
+                "menentukan alur program",
+                "membuat crud data yang dibutuhkan",
+                "implementasi metode Analytical Hierarchy Proses dalam menentukan potensial aset ",
+                "bugfix"
+            ],
+            company: "PT. KAI DAOP 2 Bandung",
+            period: timeFormat("2013-06", "MMMM YYYY"),
+
+            images: null,
+            status: "Production"
+        },
+        {
+            name: "Sistem Penjadwalan Kursus",
+            alias: "",
+            headline: false,
+            program_language: "PHP",
+            framework: "Code Igniter",
+            library: "jQuery, Bootstrap",
+            short_description: "Aplikasi ini dibuat untuk implementasi penjadwalan pada tempat kursus secara otomatis.",
+            description: "Aplikasi ini implementasi metode algoritma dan tabu dalam penjadwalan salah satu tempat kurus secara otomatis. Aplikasi digunakan untuk kebutuhan skripsi",
+            task: [
+                "Pengerjaan penjadwalan dengan menggunakan metode algoritma dan tabu",
+                "bugfix"
+            ],
+            company: "-",
+            period: "2012",
+            images: [
+                "/static/penjadwalan/jadwal.png"
             ],
             status: "Production"
         }

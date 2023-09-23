@@ -1,11 +1,19 @@
 {
-    "about me": "tentang saya",
-    "contact": "kontak",
-    "explore": "eksplorisasi",
+    "About Me": "Tentang Saya",
+    "Birthday": "Tanggal Lahir",
+    "Contacts": "kontak",
+    "Explores": "eksplorisasi",
+    "Explores data": "Data Eksplorisasi",
+    "Freelances": "Pekerja Lepas",
+    "Freelances data": "Data Freelances",
+    "Fullname": "Nama Lengkap",
+    "Gender": "Jenis Kelamin",
+    "Projects Data": "Data Proyek",
     "Latest Explores": "Eksplorisasi Terbaru",
     "Latest Freelances": "Freelances Terbaru",
     "Latest Projects": "Proyek Terbaru",
+    "Man": "Laki-laki",
     "now": "sekarang",
     "phone": "handphone",
-    "project": "proyek"
+    "Projects": "proyek"
 }

@@ -1,17 +1,18 @@
 import { timeFormat } from "@app/helpers/Time.helper";
+import i18next from "i18next";
 
 export function biodata() {
     return [
         {
-            key: "Fullname",
+            key: i18next.t("Fullname"),
             value: "Nurdin Rolissalim"
         },
         {
-            key: "Gender",
-            value: "Man"
+            key: i18next.t("Gender"),
+            value: i18next.t("Man"),
         },
         {
-            key: "Birthday",
+            key: i18next.t("Birthday"),
             value: timeFormat("1986-06-21", "DD MMMM YYYY")
         },
         {

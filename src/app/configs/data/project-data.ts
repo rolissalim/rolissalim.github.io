@@ -22,7 +22,8 @@ export function projectData() {
             company: "PT eBdesk Teknologi",
             period: timeFormat("2023-09", "MMMM YYYY"),
             images: null,
-            status: "Maintenance"
+            status: "Maintenance",
+            link: "https://calegbanten.galangsuara.id/"
         },
         {
             name: "Caleg CMS FE",
@@ -43,8 +44,8 @@ export function projectData() {
             company: "PT eBdesk Teknologi",
             period: timeFormat("2023-08", "MMMM YYYY"),
             images: null,
-            link: "https://calegbanten.galangsuara.id/",
-            status: "Development"
+            status: "Development",
+            link: null
         },
         {
             name: "Caleg CMS BE",
@@ -63,7 +64,8 @@ export function projectData() {
             company: "PT eBdesk Teknologi",
             period: timeFormat("2023-08", "MMMM YYYY"),
             images: null,
-            status: "Development"
+            status: "Development",
+            link: null
         },
         {
             name: "Caleg PDI Kab Ngawi",
@@ -134,13 +136,14 @@ export function projectData() {
 
             ],
             company: "PT eBdesk Teknologi",
-            period: "2021",
+            period: "2022",
             images: [
                 "/static/smart-city-cms-v2/login.png",
                 "/static/smart-city-cms-v2/store.png",
                 "/static/smart-city-cms-v2/news-online.png",
             ],
-            status: "Pending development"
+            status: "Pending development",
+            link: null
         },
         {
             name: "Smart City Client V2",
@@ -159,7 +162,7 @@ export function projectData() {
 
             ],
             company: "PT eBdesk Teknologi",
-            period: `2019 - ${i18n.t("now")}`,
+            period: `2021 - ${i18n.t("now")}`,
             images: [
                 "/static/smart-city-v2/menu.png",
                 "/static/smart-city-v2/angkutan.png",
@@ -184,7 +187,43 @@ export function projectData() {
             images: [
                 "/static/smart-city/home.png"
             ],
-            status: "has been upgraded"
+            status: "upgraded React JS",
+            link: null
+        },
+        {
+            name: "Smart City CMS V2",
+            alias: "",
+            headline: false,
+            program_language: "typecript, Angular 9",
+            framework: "Angular",
+            library: "",
+            short_description: "",
+            description: "",
+            task: "",
+            company: "PT Ebdesk Teknologi",
+            period: "2020",
+            images: [
+                "/static/smart-city-v2-cms-angular9/home.png"
+            ],
+            status: "Pending",
+            link: null
+        },
+        {
+            name: "Politica",
+            alias: "-",
+            headline: false,
+            program_language: "Angular 8",
+            framework: "-",
+            library: "highcart, google map, typescript",
+            short_description: "-",
+            description: "-",
+            task: "role sebagai frontend. membuat aplikasi semua fitur.",
+            company: "PT eBdesk Teknologi",
+            period: "2019",
+            images: [
+                "/static/politica/home.png"
+            ],
+            status: "Production"
         },
         {
             name: "Smart City",
@@ -205,40 +244,6 @@ export function projectData() {
             link: "https://cc.sekota.id/monitoring"
         },
         {
-            name: "Politica",
-            alias: "-",
-            headline: false,
-            program_language: "Angular 8",
-            framework: "-",
-            library: "highcart, google map, typescript",
-            short_description: "-",
-            description: "-",
-            task: "role sebagai frontend. membuat aplikasi semua fitur.",
-            company: "PT eBdesk Teknologi",
-            period: "2019",
-            images: [
-                "/static/politica/home.png"
-            ],
-            status: "Production"
-        },
-        {
-            name: "Smart City CMS V2",
-            alias: "",
-            headline: true,
-            program_language: "typecript, Angular 9",
-            framework: "Angular",
-            library: "",
-            short_description: "",
-            description: "",
-            task: "",
-            company: "PT Ebdesk Teknologi",
-            period: "2018",
-            images: [
-                "/static/smart-city-v2-cms-angular9/home.png"
-            ],
-            status: "Pending"
-        },
-        {
             name: "Media Sosial Terhadap Paslon Wakil Rakyat",
             alias: "-",
             headline: false,
@@ -250,7 +255,8 @@ export function projectData() {
             task: "role sebagai frontend. membuat aplikasi semua fitur.",
             company: "PT eBdesk Teknologi",
             status: "Production",
-            period: "2018"
+            period: "2018",
+            link: null
         },
         {
             name: "Intelligence Media Analist",
@@ -268,6 +274,7 @@ export function projectData() {
             images: [
                 "/static/ima/home.png"
             ],
+            link: "https://ima.ebdesk.com/"
         },
         {
             name: "Intelligence Perception Analysis",
@@ -284,7 +291,8 @@ export function projectData() {
             images: [
                 "/static/ipa/compare.png"
             ],
-            status: "Production"
+            status: "Production",
+            link: "https://ipa.ebdesk.com/"
         },
         {
             name: "Intelligence Media Management",
@@ -301,7 +309,8 @@ export function projectData() {
             images: [
                 "/static/imm/tv-news.png"
             ],
-            status: "Production"
+            status: "Production",
+            link: "https://imm.ebdesk.com/"
         },
 
     ]
