@@ -41,7 +41,7 @@ export function jobExperience() {
         },
         {
             key: "Backend",
-            value: "Node js, express js"
+            value: "Node js, express js, PHP "
         },
     ]
 }

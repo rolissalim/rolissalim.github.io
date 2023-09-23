@@ -4,6 +4,12 @@
     width: 100%;
 }
 
+.fit-height {
+    object-fit: cover;
+    height: 100%;
+}
+
+
 .container-image-profile {
     height: 10rem;
     width: 10rem;
