@@ -46,19 +46,5 @@ export function exploreData() {
             period: 2015,
             status: "has been upgraded"
         },
-        {
-            name: "Smart City CMS V2",
-            alias: "",
-            headline: true,
-            program_language: "typecript, Angular 9",
-            framework: "Angular",
-            library: "",
-            short_description: "",
-            description: "",
-            task: "",
-            company: "PT Ebdesk Teknologi",
-            period: "2018",
-            status: "Pending"
-        },
     ]
 }

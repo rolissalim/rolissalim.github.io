@@ -13,9 +13,9 @@ function App(): React.ReactElement {
     return (
         <>
             <Router>
-                <Routes>
+                <Routes >
                     <Route
-                        path='/*'
+                        path='*'
                         element={
                             <React.Suspense fallback={<TopBarLoader />}>
                                 <Index />

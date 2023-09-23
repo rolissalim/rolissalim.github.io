@@ -83,7 +83,10 @@ export function projectData() {
             ],
             company: "PT eBdesk Teknologi",
             period: timeFormat("2023-07", "MMMM YYYY"),
-            images: null,
+            images: [
+                "/static/caleg-ngawi/statistic.png",
+                "/static/caleg-ngawi/login.png",
+            ],
             status: "Maintenance",
             link: "https://calegpartai.galangsuara.id/signin"
         },
@@ -132,6 +135,11 @@ export function projectData() {
             ],
             company: "PT eBdesk Teknologi",
             period: "2021",
+            images: [
+                "/static/smart-city-cms-v2/login.png",
+                "/static/smart-city-cms-v2/store.png",
+                "/static/smart-city-cms-v2/news-online.png",
+            ],
             status: "Pending development"
         },
         {
@@ -152,7 +160,6 @@ export function projectData() {
             ],
             company: "PT eBdesk Teknologi",
             period: `2019 - ${i18n.t("now")}`,
-
             images: [
                 "/static/smart-city-v2/menu.png",
                 "/static/smart-city-v2/angkutan.png",
@@ -174,6 +181,9 @@ export function projectData() {
             task: "role sebagai frontend. maintenance dan membuat fitur baru.",
             company: "PT eBdesk Teknologi",
             period: "2018-2021",
+            images: [
+                "/static/smart-city/home.png"
+            ],
             status: "has been upgraded"
         },
         {
@@ -188,6 +198,9 @@ export function projectData() {
             task: "role sebagai frontend. maintenance dan membuat fitur baru.",
             company: "PT eBdesk Teknologi",
             period: `2018 - ${i18n.t("now")}`,
+            images: [
+                "/static/smart-city-cms-angular2/home.png"
+            ],
             status: "Maintenance",
             link: "https://cc.sekota.id/monitoring"
         },
@@ -203,7 +216,27 @@ export function projectData() {
             task: "role sebagai frontend. membuat aplikasi semua fitur.",
             company: "PT eBdesk Teknologi",
             period: "2019",
+            images: [
+                "/static/politica/home.png"
+            ],
             status: "Production"
+        },
+        {
+            name: "Smart City CMS V2",
+            alias: "",
+            headline: true,
+            program_language: "typecript, Angular 9",
+            framework: "Angular",
+            library: "",
+            short_description: "",
+            description: "",
+            task: "",
+            company: "PT Ebdesk Teknologi",
+            period: "2018",
+            images: [
+                "/static/smart-city-v2-cms-angular9/home.png"
+            ],
+            status: "Pending"
         },
         {
             name: "Media Sosial Terhadap Paslon Wakil Rakyat",
@@ -231,7 +264,10 @@ export function projectData() {
             task: "maintenance aplikasi ",
             company: "PT eBdesk Teknologi",
             status: "Maintenance",
-            period: "2018"
+            period: "2018",
+            images: [
+                "/static/ima/home.png"
+            ],
         },
         {
             name: "Intelligence Perception Analysis",
@@ -245,6 +281,9 @@ export function projectData() {
             task: "maintenance dan fitur baru",
             company: "PT eBdesk Teknologi",
             period: "2016-2018",
+            images: [
+                "/static/ipa/compare.png"
+            ],
             status: "Production"
         },
         {
@@ -259,6 +298,9 @@ export function projectData() {
             task: "half fullstack, maintenance aplikasi dan fitur baru, re-structure code",
             company: "PT eBdesk Teknologi",
             period: "2014 - 2017",
+            images: [
+                "/static/imm/tv-news.png"
+            ],
             status: "Production"
         },
 

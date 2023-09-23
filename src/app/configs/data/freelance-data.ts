@@ -37,9 +37,12 @@ export function freelanceData() {
             company: "PT Quadran",
             status: "Production",
             period: timeFormat("2020-09", "MMMM YYYY"),
+            images: [
+                "/static/siap/dashboard.png"
+            ],
         },
         {
-            name: "InfoPDM PLN Kalimantan V2",
+            name: "Info PDM PLN Kalimantan V2",
             alias: "",
             headline: false,
             program_language: "typescript, react js",
@@ -55,6 +58,9 @@ export function freelanceData() {
             company: "PT Quadran",
             status: "Production",
             period: timeFormat("2020-09", "MMMM YYYY"),
+            images: [
+                "/static/info-pdm/dashboard.png"
+            ],
         },
         {
             name: "SI-KEREN DPPKB Bandung",
@@ -74,6 +80,9 @@ export function freelanceData() {
             ],
             company: "PT Quadran",
             period: "2020",
+            images: [
+                "/static/si-keren/home.png"
+            ],
             status: "Production"
         },
         {
@@ -88,6 +97,9 @@ export function freelanceData() {
             task: "",
             company: "PT Quadran",
             period: "2018",
+            images: [
+                "/static/uikl/home.png"
+            ],
             status: "Production"
         },
         {
@@ -96,12 +108,15 @@ export function freelanceData() {
             headline: true,
             program_language: "PHP",
             framework: "Phalcon",
-            library: "",
+            library: "Phalcon",
             short_description: "",
             description: "",
             task: "",
             company: "-",
             period: "2016",
+            images: [
+                "/static/gotrans/home.png"
+            ],
             status: "Production"
         }
     ]

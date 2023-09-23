@@ -25,19 +25,18 @@ const Header = () => {
                         aria-labelledby={`offcanvasNavbarLabel-expand`}
                         placement="start"
                     >
-                        <Offcanvas.Header closeButton>
+                        <Offcanvas.Header closeButton className='border-bottom'>
                             <Offcanvas.Title id={`offcanvasNavbarLabel-expand`}>
                                 Menu
                             </Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="justify-content-start flex-grow-1 pe-3">
-
-                                <Link to="home" className={`nav-link ${page == "/home" ? "active" : ""}`}>{UpperCaseEachWord(t("home"))}</Link>
-                                <Link to="project" className={`nav-link ${page == "/project" ? "active" : ""}`}>{UpperCaseEachWord(t("project"))}</Link>
-                                <Link to="explore" className={`nav-link ${page == "/explore" ? "active" : ""}`}>{UpperCaseEachWord(t("explore"))}</Link>
-                                <Link to="freelance" className={`nav-link ${page == "/freelance" ? "active" : ""}`}>{UpperCaseEachWord(t("freelance"))}</Link>
-                                <Link to="about-me" className={`nav-link ${page == "/about-me" ? "active" : ""}`}>{UpperCaseEachWord(t("about me"))}</Link>
+                                <Link to="home" className={`nav-link me-1 ${page == "/home" ? "active" : ""}`}>{UpperCaseEachWord(t("home"))}</Link>
+                                <Link to="project" className={`nav-link  me-1 ${page == "/project" ? "active" : ""}`}>{UpperCaseEachWord(t("project"))}</Link>
+                                <Link to="explore" className={`nav-link  me-1 ${page == "/explore" ? "active" : ""}`}>{UpperCaseEachWord(t("explore"))}</Link>
+                                <Link to="freelance" className={`nav-link  me-1 ${page == "/freelance" ? "active" : ""}`}>{UpperCaseEachWord(t("freelance"))}</Link>
+                                <Link to="about-me" className={`nav-link me-1 ${page == "/about-me" ? "active" : ""}`}>{UpperCaseEachWord(t("about me"))}</Link>
                             </Nav>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
