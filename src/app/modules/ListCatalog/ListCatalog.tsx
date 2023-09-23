@@ -30,7 +30,7 @@ const ListCatalog = ({
         <>
             <Row>
                 {data?.map((item: any, index: number) =>
-                    <Col lg={3} md={6} sm={6} xxl={12} key={index}>
+                    <Col lg={3} md={4} sm={6} xs={12} key={index}>
                         <CardImage
                             handleSelected={handleClick}
                             item={item}

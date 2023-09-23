@@ -23,9 +23,6 @@ function HomePage() {
         })
     }, [])
 
-    console.log("dataProjects", dataProjects);
-
-
     return (
         <>
             <div className='mb-1'>

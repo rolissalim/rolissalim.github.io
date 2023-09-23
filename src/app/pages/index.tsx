@@ -36,7 +36,7 @@ export default function AppsPage(): React.ReactElement {
     return (
         <>
             <Routes>
-                <Route path="/*" element={<AppsLayout />}>
+                <Route path="*" element={<AppsLayout />}>
                     <Route path="" element={<HomePage />}></Route>
                     <Route path="home" element={<HomePage />}></Route>
                     <Route path="about-me" element={<AboutMePage />}></Route>
