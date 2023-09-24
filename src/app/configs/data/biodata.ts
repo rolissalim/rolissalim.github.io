@@ -5,7 +5,7 @@ export function biodata() {
     return [
         {
             key: i18next.t("Fullname"),
-            value: "Nurdin Rolissalim"
+            value: "Nurdin Rolissalim",
         },
         {
             key: i18next.t("Gender"),
@@ -44,5 +44,10 @@ export function jobExperience() {
             key: "Backend",
             value: "Node js, express js, PHP "
         },
+        {
+            key: "Tools",
+            value: "Webpack, babel, mapbox, jwt, e-chart, laravel"
+        },
+
     ]
 }

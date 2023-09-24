@@ -24,11 +24,17 @@ function ProfileImage() {
                 <LazyImage src={image} className="fit rounded-circle " />
             </div>
             <div className='text-center'>
-                Full Stack Developer
+                Front End, Full Stack Developer
             </div>
             <div className='text-center'>
                 <Link to={page}>{page}</Link>
             </div>
+            {/* <div className='text-center'>
+                nurdinif14@gmail.com
+            </div>
+            <div className='text-center'>
+                nurdin.rolissalim@gmail.com
+            </div> */}
             <div className='text-center'>
                 {data?.map((item: any, index: number) =>
                     <div key={index}>{item?.key} : {item?.value}</div>

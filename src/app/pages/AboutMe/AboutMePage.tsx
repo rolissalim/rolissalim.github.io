@@ -11,15 +11,10 @@ function AboutMePage() {
             <Row>
                 <Col lg={5}>
                     <ProfileImage />
+                    <SocialMedia />
                 </Col>
                 <Col lg={7}>
                     <Profile />
-                </Col>
-                <Col lg={5}>
-                   <SocialMedia />
-                </Col>
-                <Col lg={7}>
-                    
                 </Col>
             </Row>
         </>
