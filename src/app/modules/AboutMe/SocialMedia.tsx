@@ -9,9 +9,9 @@ function SocialMedia() {
     return (
         <Row>
             {data?.map((item: any, index: number) =>
-                <Col key={index} sm={12} md={6}>
+                <Col key={index} sm={12} md={6} >
                     <Link to={item?.link} className='nav-link' target="_blank" rel="noopener noreferrer">
-                        <CardComponent key={index} >
+                        <CardComponent key={index} className='shadow-sm mb-1'>
                             <h6 className='text-center'>
                                 <i className={item?.icon}></i>  {item?.name}
                             </h6>

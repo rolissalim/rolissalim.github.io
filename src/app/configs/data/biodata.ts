@@ -26,6 +26,31 @@ export function biodata() {
     ]
 }
 
+export function biodataRight() {
+    return [
+        {
+            key: i18next.t("Tertiary Education"),
+            value: "S1 Teknik Informatika",
+        },
+        {
+            key: "IPK",
+            value: 3.12,
+        },
+        {
+            key: i18next.t("University"),
+            value: "UNIKOM",
+        },
+        {
+            key: i18next.t("Graduated"),
+            value: timeFormat("2013-08-30", "DD MMMM YYYY")
+        },
+        // {
+        //     key: "Address",
+        //     value: ""
+        // },
+    ]
+}
+
 export function jobExperience() {
     return [
         {
@@ -51,3 +76,18 @@ export function jobExperience() {
 
     ]
 }
+export function companyExperience() {
+    return [
+        {
+            name: "PT. eBdesk Teknologi",
+            join: `${timeFormat("2014-01-01", "DD MMMM YYYY")} - ${i18next.t("now")}`,
+            status: i18next.t("Permanent Employees")
+        },
+        {
+            name: "PT. Quadran",
+            join: `2019 - 2021`,
+            status: i18next.t("Freelance")
+        },
+    ]
+}
+

@@ -24,7 +24,7 @@ function ProfileImage() {
                 <LazyImage src={image} className="fit rounded-circle " />
             </div>
             <div className='text-center'>
-                Front End, Full Stack Developer
+                Software Developer
             </div>
             <div className='text-center'>
                 <Link to={page}>{page}</Link>
