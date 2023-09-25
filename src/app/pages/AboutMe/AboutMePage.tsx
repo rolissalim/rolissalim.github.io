@@ -1,4 +1,5 @@
 import CardComponent from '@app/components/Card/CardComponent'
+import Experiences from '@app/modules/AboutMe/Experiences'
 import Profile from '@app/modules/AboutMe/Profile'
 import ProfileImage from '@app/modules/AboutMe/ProfileImage'
 import SocialMedia from '@app/modules/AboutMe/SocialMedia'
@@ -15,6 +16,7 @@ function AboutMePage() {
                 </Col>
                 <Col lg={7}>
                     <Profile />
+                    <Experiences />
                 </Col>
             </Row>
         </>

@@ -81,12 +81,28 @@ export function companyExperience() {
         {
             name: "PT. eBdesk Teknologi",
             join: `${timeFormat("2014-01-01", "DD MMMM YYYY")} - ${i18next.t("now")}`,
-            status: i18next.t("Permanent Employees")
+            status: i18next.t("Permanent Employees"),
+            task: [
+                "menganalisis kebutuhan suatu aplikasi",
+                "menganalisis database",
+                "integrasi api",
+                "membuat web baru",
+                "Menentukan UI/UX",
+                "Maintenance semua web di tim smart city"
+            ]
         },
         {
             name: "PT. Quadran",
             join: `2019 - 2021`,
-            status: i18next.t("Freelance")
+            status: i18next.t("Freelance"),
+            task: [
+                "Leader freelances yang sudah direkrut",
+                "Menganalisis kebutuhan suatu user",
+                "Menganalisis database",
+                "Integrasi api",
+                "Membuat dan menentukan aplikasi berfungsi dengan baik",
+                "Membuat timeline supaya proyek sesuai dengan deadline"
+            ]
         },
     ]
 }

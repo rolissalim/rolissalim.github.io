@@ -127,8 +127,8 @@ export function freelanceData() {
             framework: "",
             library: "jQuery,Bootstrap",
             short_description: "Aplikasi ini dibuat untuk menentukan pengendalian dan perencanaan obat di Dinas Kesehatan Kota Bandung",
-            description: 
-            `Aplikasi ini implementasi metode Singel Moving Avaragge untuk mengetahui jumlah kebutuhan obat 
+            description:
+                `Aplikasi ini implementasi metode Singel Moving Avaragge untuk mengetahui jumlah kebutuhan obat 
             dan metode Economic Quantity Order untuk menentukan jumlah obat yang harus dipesan.
             Aplikasi digunakan untuk kebutuhan skripsi`,
             task: [
@@ -141,7 +141,9 @@ export function freelanceData() {
             ],
             company: "PT. KAI DAOP 2 Bandung",
             period: timeFormat("2013-06", "MMMM YYYY"),
-            images: null,
+            images: [
+                "/static/inventory-obat/data-obat.png"
+            ],
             status: "Production"
         },
         {
