@@ -80,7 +80,7 @@ export function companyExperience() {
     return [
         {
             name: "PT. eBdesk Teknologi",
-            join: `${timeFormat("2014-01-01", "DD MMMM YYYY")} - ${i18next.t("now")}`,
+            join: `${timeFormat("2014-01", "MMMM YYYY")} - ${i18next.t("now")}`,
             status: i18next.t("Permanent Employees"),
             task: [
                 "menganalisis kebutuhan suatu aplikasi",
@@ -93,7 +93,7 @@ export function companyExperience() {
         },
         {
             name: "PT. Quadran",
-            join: `2019 - 2021`,
+            join: `2019 - 2022`,
             status: i18next.t("Freelance"),
             task: [
                 "Leader freelances yang sudah direkrut",
