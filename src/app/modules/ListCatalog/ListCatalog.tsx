@@ -24,7 +24,7 @@ const ListCatalog = ({
     const handleClick = (item: any) => {
         setDataSelected(() => { return item })
         setModal((prev: any) => {
-            return { ...prev, show: true }
+            return { ...prev, show: true, title: item?.name }
         })
     }
 

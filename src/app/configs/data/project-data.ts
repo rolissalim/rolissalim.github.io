@@ -21,7 +21,10 @@ export function projectData() {
             ],
             company: "PT eBdesk Teknologi",
             period: timeFormat("2023-09", "MMMM YYYY"),
-            images: null,
+            images: [
+                "/static/caleg-banten/caleg banten.png",
+                "/static/caleg-banten/caleg banten 1.png",
+            ],
             status: "Maintenance",
             link: "https://calegbanten.galangsuara.id/"
         },
@@ -223,7 +226,8 @@ export function projectData() {
             images: [
                 "/static/politica/home.png"
             ],
-            status: "Production"
+            status: "Production",
+            link: "https://politica.ebdesk.com/auth/login"
         },
         {
             name: "Smart City",
