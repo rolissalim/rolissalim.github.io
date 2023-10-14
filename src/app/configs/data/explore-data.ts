@@ -1,5 +1,22 @@
+import { timeFormat } from "@app/helpers/Time.helper";
+
 export function exploreData() {
     return [
+        {
+            name: "learning next js",
+            alias: "",
+            headline: true,
+            program_language: "react js",
+            framework: "next js",
+            library: "axios",
+            short_description: "",
+            description: "",
+            period: timeFormat("2023-10", "MMMM YYYY"),
+            task: [
+                "role sebagai FE"
+            ],
+            source_code: "https://github.com/rolissalim/learning-next-js"
+        },
         {
             name: "Analisis Data kependudukan",
             alias: "",
@@ -16,7 +33,7 @@ export function exploreData() {
             ],
             company: "PT eBdesk Teknologi",
             period: "2021",
-            status: "change to react js"
+            status: "change to react js",
         },
         {
             name: "Aplikasi Politica Mobile",

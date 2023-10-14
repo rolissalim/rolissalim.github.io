@@ -6,6 +6,7 @@ import React, { useState } from 'react'
 import { Badge, Card, Col, Row } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 import ListCatalogDetail from './ListCatalogDetail'
+import { Link } from 'react-router-dom'
 
 interface IListCatalog {
     data: any
@@ -26,6 +27,9 @@ const ListCatalog = ({
             return { ...prev, show: true }
         })
     }
+
+    console.log("data", data);
+
     return (
         <>
             <Row>
@@ -40,6 +44,8 @@ const ListCatalog = ({
                             </Card.Title>
                             <div> {item?.program_language} </div>
                             <div className="mb-1 fs-7 text-muted">{item?.short_description}</div>
+                            {item?.source_code ? <Link to={item?.source_code} target='_blank'>source code</Link> : null}
+                            {item?.link ? <Link to={item?.link} target='_blank'>view web</Link> : null}
                             <div className="d-flex justify-content-between mb-1">
                                 <div className="">{item?.period}</div>
                                 <div className=""><Badge bg={get(statusConfig(), item?.status) || "primary"}>{item?.status}</Badge></div>
