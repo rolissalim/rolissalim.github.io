@@ -12,6 +12,11 @@ export function exploreData() {
             short_description: "",
             description: "",
             period: timeFormat("2023-10", "MMMM YYYY"),
+            images: [
+                "/static/learning-nextjs/learning-nextjs.png",
+                "/static/learning-nextjs/learning-nextjs-2.png",
+                "/static/learning-nextjs/learning-nextjs-3.png",
+            ],
             task: [
                 "role sebagai FE"
             ],
