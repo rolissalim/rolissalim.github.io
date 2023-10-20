@@ -23,14 +23,50 @@ export function exploreData() {
             source_code: "https://github.com/rolissalim/learning-next-js"
         },
         {
-            name: "Analisis Data kependudukan",
+            name: "Express JS Rest API",
+            alias: "",
+            headline: true,
+            program_language: "node js",
+            framework: "express js",
+            library: "migrate, mysql, jwt,swagger",
+            short_description: "project ini dibuat untuk belajar express js Rest API",
+            description: "project ini dibuat untuk belajar express js Rest API",
+            period: timeFormat("2023-08", "MMMM YYYY"),
+            images: [
+
+            ],
+            task: [
+                "role sebagai BE"
+            ],
+            source_code: "https://github.com/rolissalim/express-server-api"
+        },
+        {
+            name: "java spring CRUD",
+            alias: "",
+            headline: true,
+            program_language: "java",
+            framework: "spring boot",
+            library: "axos",
+            short_description: "",
+            description: "",
+            period: timeFormat("2023-08", "MMMM YYYY"),
+            images: [
+
+            ],
+            task: [
+                "role sebagai BE"
+            ],
+            source_code: ""
+        },
+        {
+            name: "Explore Aplikasi Desa",
             alias: "",
             headline: false,
             program_language: "PHP",
             framework: "laravel 8",
-            library: "Highcart, Google map, bootstrap, jwt, ",
-            short_description: "",
-            description: "",
+            library: "bootstrap, jquery,javascript",
+            short_description: "Aplikasi ini digunakan hanya untuk explore dan demo",
+            description: "Aplikasi ini digunakan hanya untuk explore dan demo.",
             task: [
                 "role sebagai fullstack",
                 "membuat fitur baru",
@@ -39,6 +75,7 @@ export function exploreData() {
             company: "PT eBdesk Teknologi",
             period: "2021",
             status: "change to react js",
+            source_code: "https://gitlab.com/nurdin_rolissalim/aplikasi-desa"
         },
         {
             name: "Aplikasi Politica Mobile",
@@ -52,7 +89,8 @@ export function exploreData() {
             task: "role sebagai frontend. membuat aplikasi semua fitur.",
             company: "PT eBdesk Teknologi",
             period: "2017",
-            status: "not publish"
+            status: "Not used",
+            source_code: "https://gitlab.com/nurdin_rolissalim/explore-react-native"
         },
         {
             name: "RE-Structure IMM",
