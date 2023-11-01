@@ -112,14 +112,14 @@ export function projectData() {
 
             ],
             company: "PT eBdesk Teknologi",
-            period: `${timeFormat("2023-03", "MMMM")} - ${timeFormat("2023-10", "MMMM YYYY")}`,
+            period: `${timeFormat("2023-03", "MMMM")} - ${timeFormat("2023-11", "MMMM YYYY")}`,
             images: [
                 "/static/galang-suara-2024/dashboard.png",
                 "/static/galang-suara-2024/dashboard-2.png",
                 "/static/galang-suara-2024/administrator.png",
                 "/static/galang-suara-2024/login.png",
             ],
-            status: "Maintenance",
+            status: "Development Fitur",
             link: "https://cms.galangsuara.id"
         },
         {
