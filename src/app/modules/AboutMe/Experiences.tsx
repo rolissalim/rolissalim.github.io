@@ -11,7 +11,7 @@ function Experiences() {
         <Row>
             {data?.map((item: any, index: number) =>
                 <Col key={index} md={6} sm={12}>
-                    <CardComponent className='shadow-sm' key={index} title={item?.name} hideHeader={false}>
+                    <CardComponent className='shadow-sm border-0 mb-2' key={index} title={item?.name} hideHeader={false}>
                         <div className='border-bottom mb-2'>
                             <div>Status</div>
                             <div>{item?.status}</div>

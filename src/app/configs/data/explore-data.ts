@@ -20,7 +20,8 @@ export function exploreData() {
             task: [
                 "role sebagai FE"
             ],
-            source_code: "https://github.com/rolissalim/learning-next-js"
+            source_code: "https://github.com/rolissalim/learning-next-js",
+            type:"explore"
         },
         {
             name: "Express JS Rest API",
@@ -38,7 +39,8 @@ export function exploreData() {
             task: [
                 "role sebagai BE"
             ],
-            source_code: "https://github.com/rolissalim/express-server-api"
+            source_code: "https://github.com/rolissalim/express-server-api",
+            type:"explore"
         },
         {
             name: "java spring CRUD",
@@ -56,12 +58,13 @@ export function exploreData() {
             task: [
                 "role sebagai BE"
             ],
-            source_code: "https://github.com/rolissalim/java_spring_crud"
+            source_code: "https://github.com/rolissalim/java_spring_crud",
+            type:"explore"
         },
         {
             name: "Explore Aplikasi Desa",
             alias: "",
-            headline: false,
+            headline: true,
             program_language: "PHP",
             framework: "laravel 8",
             library: "bootstrap, jquery,javascript",
@@ -75,7 +78,8 @@ export function exploreData() {
             company: "PT eBdesk Teknologi",
             period: "2021",
             status: "change to react js",
-            source_code: "https://gitlab.com/nurdin_rolissalim/aplikasi-desa"
+            source_code: "https://gitlab.com/nurdin_rolissalim/aplikasi-desa",
+            type:"explore"
         },
         {
             name: "Aplikasi Politica Mobile",
@@ -90,7 +94,8 @@ export function exploreData() {
             company: "PT eBdesk Teknologi",
             period: "2017",
             status: "Not used",
-            source_code: "https://gitlab.com/nurdin_rolissalim/explore-react-native"
+            source_code: "https://gitlab.com/nurdin_rolissalim/explore-react-native",
+            type:"explore"
         },
         {
             name: "RE-Structure IMM",
@@ -104,7 +109,8 @@ export function exploreData() {
             task: "",
             company: "PT eBdesk Teknologi",
             period: 2015,
-            status: "has been upgraded"
+            status: "has been upgraded",
+            type:"explore"
         },
     ]
 }

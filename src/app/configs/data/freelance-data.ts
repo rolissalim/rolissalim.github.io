@@ -5,7 +5,7 @@ export function freelanceData() {
         {
             name: "Outage PLN Kalimantan V2",
             alias: "",
-            headline: false,
+            headline: true,
             program_language: "typescript,react js",
             framework: "",
             library: "Google Map, webpack, babel, eslint, react-router-dom, readux@toolkit, code-splitting, compores, optimitation",
@@ -18,7 +18,8 @@ export function freelanceData() {
             ],
             company: "PT Quadran",
             period: timeFormat("2020-09", "MMMM YYYY"),
-            status: "Production"
+            status: "Production",
+            type:"freelance"
         },
         {
             name: "SIAP PLN Kalimantan ",
@@ -40,6 +41,7 @@ export function freelanceData() {
             images: [
                 "/static/siap/dashboard.png"
             ],
+            type:"freelance"
         },
         {
             name: "Info PDM PLN Kalimantan V2",
@@ -61,6 +63,7 @@ export function freelanceData() {
             images: [
                 "/static/info-pdm/dashboard.png"
             ],
+            type:"freelance"
         },
         {
             name: "SI-KEREN DPPKB Bandung",
@@ -83,12 +86,13 @@ export function freelanceData() {
             images: [
                 "/static/si-keren/home.png"
             ],
-            status: "Production"
+            status: "Production",
+            type:"freelance"
         },
         {
             name: "Sistem Informasi di PLN Kalimantan",
             alias: "",
-            headline: false,
+            headline: true,
             program_language: "PHP",
             framework: "code igniter 2",
             library: "Google Map, highchart, datatable, jqwidget",
@@ -100,12 +104,13 @@ export function freelanceData() {
             images: [
                 "/static/uikl/home.png"
             ],
-            status: "Production"
+            status: "Production",
+            type:"freelance"
         },
         {
             name: "Rest API GO TRANS",
             alias: "",
-            headline: false,
+            headline: true,
             program_language: "PHP",
             framework: "Phalcon",
             library: "Phalcon",
@@ -117,7 +122,8 @@ export function freelanceData() {
             images: [
                 "/static/gotrans/home.png"
             ],
-            status: "Production"
+            status: "Production",
+            type:"freelance"
         },
         {
             name: "Inventori Obat",
@@ -144,7 +150,8 @@ export function freelanceData() {
             images: [
                 "/static/inventory-obat/data-obat.png"
             ],
-            status: "Production"
+            status: "Production",
+            type:"freelance"
         },
         {
             name: "GIS Potensial Aset",
@@ -167,7 +174,8 @@ export function freelanceData() {
             period: timeFormat("2013-06", "MMMM YYYY"),
 
             images: null,
-            status: "Production"
+            status: "Production",
+            type:"freelance"
         },
         {
             name: "Sistem Penjadwalan Kursus",
@@ -187,7 +195,8 @@ export function freelanceData() {
             images: [
                 "/static/penjadwalan/jadwal.png"
             ],
-            status: "Production"
+            status: "Production",
+            type:"freelance"
         }
     ]
 }

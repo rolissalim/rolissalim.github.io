@@ -4,6 +4,240 @@ import i18n from 'i18next';
 export function projectData() {
     return [
         {
+            name: "Pegasus web",
+            alias: "-",
+            headline: true,
+            program_language: "Laravel 9",
+            framework: "-",
+            library: "mapbox, highchart, Google map, jwt, SockJS",
+            short_description: "-",
+            description: "-",
+            task: [
+                "role sebagai frontend",
+                "membuat fitur baru",
+                "maintenance",
+            ],
+            company: "PT eBdesk Teknologi",
+            period: `${timeFormat("2023-11-15", "MMMM")} - ${timeFormat("2023-12-6", "MMMM YYYY")}`,
+            images: [
+                "/static/pegasus-web/1.png",
+                "/static/pegasus-web/2.png",
+            ],
+            status: "Maintenance",
+            link: "https://pegasus.blackeye.id/",
+            type: "project"
+        },
+        {
+            name: "Pegasus Rest API",
+            alias: "-",
+            headline: true,
+            program_language: "Laravel 9",
+            framework: "-",
+            library: "jwt,  kafka, queue",
+            short_description: "-",
+            description: "-",
+            task: [
+                "role sebagai backend",
+                "membuat fitur baru",
+                "maintenance",
+            ],
+            company: "PT eBdesk Teknologi",
+            period: `${timeFormat("2023-11-15", "MMMM")} - ${timeFormat("2023-12-6", "MMMM YYYY")}`,
+            images: [
+                "/static/pegasus-api/1.png",
+            ],
+            status: "Maintenance",
+            link: "https://pegasus-service.blackeye.id/api/documentation",
+            type: "project"
+        },
+        {
+            name: "Gaskeun web",
+            alias: "-",
+            headline: false,
+            program_language: "Laravel 9",
+            framework: "-",
+            library: "mapbox, highchart, Google map, jwt, SockJS",
+            short_description: "-",
+            description: "-",
+            task: [
+                "role sebagai frontend",
+                "membuat fitur baru",
+                "maintenance",
+            ],
+            company: "PT eBdesk Teknologi",
+            period: `${timeFormat("2023-10", "MMMM")} - ${timeFormat("2023-12", "MMMM YYYY")}`,
+            images: [
+                "/static/gaskeun-web/1.png",
+                "/static/gaskeun-web/2.png",
+            ],
+            status: "Maintenance",
+            link: "https://cms-progv3.blackeye.id/",
+            type: "project"
+        },
+        {
+            name: "Gaskeun Rest API",
+            alias: "-",
+            headline: false,
+            program_language: "Laravel 9",
+            framework: "-",
+            library: "jwt,  kafka, queue",
+            short_description: "-",
+            description: "-",
+            task: [
+                "role sebagai backend",
+                "membuat fitur baru",
+                "maintenance",
+            ],
+            company: "PT eBdesk Teknologi",
+            period: `${timeFormat("2023-10", "MMMM")} - ${timeFormat("2023-12", "MMMM YYYY")}`,
+            images: [
+                "/static/gaskeun-api/1.png",
+            ],
+            status: "Maintenance",
+            link: "https://pegasus-service.blackeye.id/api/documentation",
+            type: "project"
+        },
+        {
+            name: "Lebak Bulus web",
+            alias: "-",
+            headline: false,
+            program_language: "Laravel 9",
+            framework: "-",
+            library: "mapbox, highchart, Google map, jwt, ",
+            short_description: "-",
+            description: "-",
+            task: [
+                "role sebagai frontend",
+                "membuat fitur baru",
+                "maintenance",
+            ],
+            company: "PT eBdesk Teknologi",
+            period: timeFormat("2023-10-01", "MMMM YYYY"),
+            images: [
+                "/static/caleg-banten/caleg banten.png",
+                "/static/caleg-banten/caleg banten 1.png",
+            ],
+            status: "Maintenance",
+            link: "https://lebakbulus.blackeye.id/",
+            type: "project"
+        },
+        {
+            name: "Lebak Bulus Rest API",
+            alias: "-",
+            headline: false,
+            program_language: "Laravel 9",
+            framework: "-",
+            library: "jwt,  kafka, queue",
+            short_description: "-",
+            description: "-",
+            task: [
+                "role sebagai backend",
+                "membuat fitur baru",
+                "maintenance",
+            ],
+            company: "PT eBdesk Teknologi",
+            period: `${timeFormat("2023-10-01", "MMMM YYYY")}`,
+            images: [
+                "/static/lebak-bulus-api/1.png",
+            ],
+            status: "Maintenance",
+            link: "https://lebakbulus-service.blackeye.id/api/documentation",
+            type: "project"
+        },
+        {
+            name: "Merapi web",
+            alias: "-",
+            headline: false,
+            program_language: "Laravel 9",
+            framework: "-",
+            library: "mapbox, highchart, Google map, jwt, ",
+            short_description: "-",
+            description: "-",
+            task: [
+                "role sebagai frontend",
+                "membuat fitur baru",
+                "maintenance",
+            ],
+            company: "PT eBdesk Teknologi",
+            period: timeFormat("2023-10-01", "MMMM YYYY"),
+            images: [
+                "/static/merapi-api/1.png",
+            ],
+            status: "Maintenance",
+            link: "https://merapi.blackeye.id/",
+            type: "project"
+        },
+        {
+            name: "Merapi Rest API",
+            alias: "-",
+            headline: false,
+            program_language: "Laravel 9",
+            framework: "-",
+            library: "jwt, kafka, queue",
+            short_description: "-",
+            description: "-",
+            task: [
+                "role sebagai backend",
+                "membuat fitur baru",
+                "maintenance",
+            ],
+            company: "PT eBdesk Teknologi",
+            period: timeFormat("2023-10-01", "MMMM YYYY"),
+            images: [
+                "/static/merapi-api/1.png",
+            ],
+            status: "Maintenance",
+            link: "https://merapi-service.blackeye.id/api/documentation",
+            type: "project"
+        },
+        {
+            name: "Ayam kinantan web",
+            alias: "-",
+            headline: false,
+            program_language: "Laravel 9",
+            framework: "-",
+            library: "mapbox, highchart, Google map, jwt, ",
+            short_description: "-",
+            description: "-",
+            task: [
+                "role sebagai frontend",
+                "membuat fitur baru",
+                "maintenance",
+            ],
+            company: "PT eBdesk Teknologi",
+            period: timeFormat("2023-10-01", "MMMM YYYY"),
+            images: [
+                "/static/caleg-banten/caleg banten.png",
+                "/static/caleg-banten/caleg banten 1.png",
+            ],
+            status: "Maintenance",
+            link: "https://ayamkinantan.blackeye.id/",
+            type: "project"
+        },
+        {
+            name: "Ayam kinantan Rest API",
+            alias: "-",
+            headline: false,
+            program_language: "Laravel 9",
+            framework: "-",
+            library: "jwt, kafka, queue",
+            short_description: "-",
+            description: "-",
+            task: [
+                "role sebagai backend",
+                "membuat fitur baru",
+                "maintenance",
+            ],
+            company: "PT eBdesk Teknologi",
+            period: timeFormat("2023-10-01", "MMMM YYYY"),
+            images: [
+                "/static/ayam-kinantan-api/1.png",
+            ],
+            status: "Maintenance",
+            link: "https://ayamkinantan-service.blackeye.id/api/documentation",
+            type: "project"
+        },
+        {
             name: "Caleg PDI Banten I",
             alias: "-",
             headline: false,
@@ -26,12 +260,13 @@ export function projectData() {
                 "/static/caleg-banten/caleg banten 1.png",
             ],
             status: "Maintenance",
-            link: "https://calegbanten.galangsuara.id/"
+            link: "https://calegbanten.galangsuara.id/",
+            type: "project"
         },
         {
             name: "Caleg CMS FE",
             alias: "-",
-            headline: true,
+            headline: false,
             program_language: "React JS",
             framework: "-",
             library: "typecript, webpack, babel, eslint, ,echart, Google map, bootstrap, jwt",
@@ -48,12 +283,13 @@ export function projectData() {
             period: timeFormat("2023-08", "MMMM YYYY"),
             images: null,
             status: "Development",
-            link: null
+            link: null,
+            type: "project"
         },
         {
             name: "Caleg CMS BE",
             alias: "-",
-            headline: true,
+            headline: false,
             program_language: "express JS",
             framework: "-",
             library: "typescript, migrate, jwt, typeorm",
@@ -68,7 +304,8 @@ export function projectData() {
             period: timeFormat("2023-08", "MMMM YYYY"),
             images: null,
             status: "Development",
-            link: null
+            link: null,
+            type: "project"
         },
         {
             name: "Caleg PDI Kab Ngawi",
@@ -93,7 +330,8 @@ export function projectData() {
                 "/static/caleg-ngawi/login.png",
             ],
             status: "Maintenance",
-            link: "https://calegpartai.galangsuara.id/signin"
+            link: "https://calegpartai.galangsuara.id/signin",
+            type: "project"
         },
         {
             name: "Galang Suara 2024",
@@ -112,15 +350,16 @@ export function projectData() {
 
             ],
             company: "PT eBdesk Teknologi",
-            period: `${timeFormat("2023-03", "MMMM")} - ${timeFormat("2023-11", "MMMM YYYY")}`,
+            period: `${timeFormat("2023-03", "MMMM")} - ${i18n.t("now")}`,
             images: [
                 "/static/galang-suara-2024/dashboard.png",
                 "/static/galang-suara-2024/dashboard-2.png",
                 "/static/galang-suara-2024/administrator.png",
                 "/static/galang-suara-2024/login.png",
             ],
-            status: "Development Fitur",
-            link: "https://cms.galangsuara.id"
+            status: "Maintenance",
+            link: "https://cms.galangsuara.id",
+            type: "project"
         },
         {
             name: "Smart City CMS V2",
@@ -146,7 +385,8 @@ export function projectData() {
                 "/static/smart-city-cms-v2/news-online.png",
             ],
             status: "Pending development",
-            link: null
+            link: null,
+            type: "project"
         },
         {
             name: "Smart City Client V2",
@@ -173,7 +413,8 @@ export function projectData() {
                 "/static/smart-city-v2/video.png",
             ],
             status: "Maintenance",
-            link: "https://web2.sekota.id/kabsintang/menu/grid"
+            link: "https://web2.sekota.id/kabsintang/menu/grid",
+            type: "project"
         },
         {
             name: "Smart City Client",
@@ -191,7 +432,8 @@ export function projectData() {
                 "/static/smart-city/home.png"
             ],
             status: "upgraded React JS",
-            link: null
+            link: null,
+            type: "project"
         },
         {
             name: "Smart City CMS V2",
@@ -209,7 +451,8 @@ export function projectData() {
                 "/static/smart-city-v2-cms-angular9/home.png"
             ],
             status: "Pending",
-            link: null
+            link: null,
+            type: "project"
         },
         {
             name: "Politica",
@@ -227,7 +470,8 @@ export function projectData() {
                 "/static/politica/home.png"
             ],
             status: "Production",
-            link: "https://politica.ebdesk.com/auth/login"
+            link: "https://politica.ebdesk.com/auth/login",
+            type: "project"
         },
         {
             name: "Smart City",
@@ -245,7 +489,8 @@ export function projectData() {
                 "/static/smart-city-cms-angular2/home.png"
             ],
             status: "Maintenance",
-            link: "https://cc.sekota.id/monitoring"
+            link: "https://cc.sekota.id/monitoring",
+            type: "project"
         },
         {
             name: "Media Sosial Terhadap Paslon Wakil Rakyat",
@@ -260,7 +505,8 @@ export function projectData() {
             company: "PT eBdesk Teknologi",
             status: "Production",
             period: "2018",
-            link: null
+            link: null,
+            type: "project"
         },
         {
             name: "Intelligence Media Analist",
@@ -278,7 +524,8 @@ export function projectData() {
             images: [
                 "/static/ima/home.png"
             ],
-            link: "https://ima.ebdesk.com/"
+            link: "https://ima.ebdesk.com/",
+            type: "project"
         },
         {
             name: "Intelligence Perception Analysis",
@@ -296,7 +543,8 @@ export function projectData() {
                 "/static/ipa/compare.png"
             ],
             status: "Production",
-            link: "https://ipa.ebdesk.com/"
+            link: "https://ipa.ebdesk.com/",
+            type: "project"
         },
         {
             name: "Intelligence Media Management",
@@ -314,7 +562,8 @@ export function projectData() {
                 "/static/imm/tv-news.png"
             ],
             status: "Production",
-            link: "https://imm.ebdesk.com/"
+            link: "https://imm.ebdesk.com/",
+            type: "project"
         },
 
     ]

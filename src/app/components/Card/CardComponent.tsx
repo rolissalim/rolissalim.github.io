@@ -7,8 +7,8 @@ export default function CardComponent({
     title = "",
     children,
     variant = "",
-    className = "mb-1",
-    classNameHeader = "",
+    className = "mb-2 shadow-sm border-0",
+    classNameHeader = "border-0",
     classNameBody = "",
     styleHeader
 

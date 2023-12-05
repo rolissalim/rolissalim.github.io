@@ -78,6 +78,7 @@ export function skillExperience() {
             name: "React js",
             period: `2019 - ${i18next.t("now")}`,
             rating: 4.8,
+            progress: 90,
             tools: [
                 "react hook",
                 "react-form-hook",
@@ -101,6 +102,7 @@ export function skillExperience() {
             name: "PHP",
             period: `2014 - ${i18next.t("now")}`,
             rating: 4.4,
+            progress: 90,
             tools: [
                 "jwt",
                 "mysql",
@@ -110,32 +112,21 @@ export function skillExperience() {
             name: "MySQL",
             period: `2014 - ${i18next.t("now")}`,
             rating: 4.0,
+            progress: 80,
             tools: null
-        },
-        {
-            name: "jQuery",
-            period: `2014 - ${i18next.t("now")}`,
-            rating: 4.0,
-            tools: [
-                "ajax",
-            ]
         },
         {
             name: "javascript",
             period: `2014 - ${i18next.t("now")}`,
             rating: 4.0,
+            progress: 70,
             tools: []
-        },
-        {
-            name: "GIT",
-            period: `2016 - ${i18next.t("now")}`,
-            rating: 4.0,
-            tools: ["github, gitlab"]
         },
         {
             name: "node js",
             period: `2023`,
             rating: 3.5,
+            progress: 70,
             tools: [
                 "migrate",
                 "jwt",
@@ -144,9 +135,28 @@ export function skillExperience() {
             ]
         },
         {
+            name: "jQuery",
+            period: `2014 - ${i18next.t("now")}`,
+            rating: 4.0,
+            progress: 60,
+            tools: [
+                "ajax",
+            ]
+        },
+
+        {
+            name: "GIT",
+            period: `2016 - ${i18next.t("now")}`,
+            rating: 4.0,
+            progress: 60,
+            tools: ["github, gitlab"]
+        },
+
+        {
             name: "Angular js",
             period: `2018 - 2019`,
             rating: 3.5,
+            progress: 60,
             tools: [
                 "jwt",
             ]
@@ -155,6 +165,21 @@ export function skillExperience() {
             name: "Java",
             period: `2011 - 2018`,
             rating: 3.0,
+            progress: 50,
+            tools: []
+        },
+        {
+            name: "Vue",
+            period: `2023`,
+            rating: 1.0,
+            progress: 30,
+            tools: []
+        },
+        {
+            name: "Golang",
+            period: `2023`,
+            rating: 1.0,
+            progress: 10,
             tools: []
         },
     ]

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from './Header';
+import Footer from './Footer';
 
 /**  COMBINE LAYOUT APPS ADA DISINI */
 function AppsLayout() {
@@ -12,6 +13,7 @@ function AppsLayout() {
                 className='container mt-2 pb-3 pt-2'>
                 <Outlet />
             </div>
+            <Footer />
         </div>
     );
 }
