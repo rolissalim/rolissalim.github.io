@@ -10,7 +10,7 @@ function AppsLayout() {
         <div>
             <Header />
             <div
-                className='container mt-2 pb-3 pt-2'>
+                className='container mt-2 pb-3 pt-2 container-layout'>
                 <Outlet />
             </div>
             <Footer />

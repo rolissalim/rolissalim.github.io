@@ -1,10 +1,20 @@
 import CardComponent from '@app/components/Card/CardComponent'
 import { socialMediaData } from '@app/configs/data/social-media'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
-function ListSocialMedia() {
-    const data = socialMediaData()
+interface IListSocialMedia {
+    type?: string
+}
+
+function ListSocialMedia({ type = "media-social" }: IListSocialMedia) {
+    const [data, setData] = useState<any>()
+    useEffect(() => {
+        let data = socialMediaData()
+        setData(() => {
+            return data.filter((item: any) => { return item?.type == type })
+        })
+    }, [])
     return (
         <>
             {data?.map((item: any, index: number) =>

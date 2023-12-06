@@ -2,9 +2,18 @@
     // font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.55);
     padding: 0 0.3rem 0.3rem 0;
+    text-decoration: none;
 
     &:hover {
         color: var(--bs-white)
+    }
+
+    &:visited {
+        text-decoration: none;
+    }
+
+    &:active {
+        color: #fff;
     }
 }
 

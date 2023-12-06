@@ -43,7 +43,7 @@ const ListCatalog = ({
                                 <div className='text-wrap'>{item?.name}</div>
                             </Card.Title>
                             <div> {item?.program_language} </div>
-                            <div className="mb-1 fs-7 text-muted">{item?.short_description}</div>
+                            <div className="mb-1 fs-7 text-muted small">{item?.short_description}</div>
                             {item?.source_code ? <Link to={item?.source_code} target='_blank'>source code</Link> : null}
                             {item?.link ? <Link to={item?.link} target='_blank'>view web</Link> : null}
                             <div className="d-flex justify-content-between mb-1">
