@@ -12,7 +12,7 @@ function Footer() {
         <footer className='footer bd-footer py-4 py-md-5 mt-5 bg-dark'>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-3  mb-2  d-flex justify-content-center">
+                    <div className="col-md-3  mb-2  d-flex justify-content-start">
                         <div>
                             <h5>Nurdin Rolissalim</h5>
                             <div className="">
@@ -20,7 +20,7 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 mb-2 d-flex justify-content-center">
+                    <div className="col-md-3 mb-2 d-flex justify-content-start">
                         <div>
                             <h5>Links</h5>
                             <Nav className="d-flex flex-column">
@@ -32,13 +32,13 @@ function Footer() {
                             </Nav>
                         </div>
                     </div>
-                    <div className="col-md-3 mb-2  d-flex justify-content-center">
+                    <div className="col-md-3 mb-2  d-flex justify-content-start">
                         <div>
                             <h5>{t("Media Social")}</h5>
                             <ListSocialMedia type="media-social" />
                         </div>
                     </div>
-                    <div className="col-md-3 mb-2  d-flex justify-content-center">
+                    <div className="col-md-3 mb-2  d-flex justify-content-start">
                         <div>
                             <h5>{t("Contacts")}</h5>
                             <ListSocialMedia type="contact" />
