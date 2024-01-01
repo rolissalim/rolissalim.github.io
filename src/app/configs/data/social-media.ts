@@ -31,9 +31,21 @@ export function socialMediaData() {
             icon: "fab fa-instagram-square",
             type: "media-social"
         },
+        {
+            name: "instagram",
+            link: "https://www.instagram.com/molifood86/",
+            icon: "fab fa-instagram-square",
+            type: "media-social"
+        },
 
         {
             name: "nurdinif14@gmail.com",
+            link: "",
+            icon: "fa-solid fa-envelope",
+            type: "contact"
+        },
+        {
+            name: "nurdin.rolissalim@gmail.com",
             link: "",
             icon: "fa-solid fa-envelope",
             type: "contact"

@@ -7,7 +7,7 @@ import { UpperCaseEachWord } from '@app/helpers/String.helper'
 
 function Footer() {
     const { t } = useTranslation()
-
+    
     return (
         <footer className='footer bd-footer py-4 py-md-5 mt-5 bg-dark'>
             <div className="container">
