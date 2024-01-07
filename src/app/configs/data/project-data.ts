@@ -18,7 +18,7 @@ export function projectData() {
                 "maintenance",
             ],
             company: "PT eBdesk Teknologi",
-            period: `${timeFormat("2023-11-15", "MMM")} - ${timeFormat("2023-12-6", "MMM YYYY")}`,
+            period: `${timeFormat("2023-12-20", "MMM")} - ${timeFormat("2023-01-10", "MMM YYYY")}`,
             images: [
                 "/static/debat-v2/7.png",
                 "/static/debat-v2/6.png",
