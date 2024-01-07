@@ -11,7 +11,7 @@ export function exploreData() {
             library: "axios",
             short_description: "",
             description: "",
-            period: timeFormat("2023-10", "MMMM YYYY"),
+            period: timeFormat("2023-10", "MMM YYYY"),
             images: [
                 "/static/learning-nextjs/learning-nextjs.png",
                 "/static/learning-nextjs/learning-nextjs-2.png",
@@ -32,7 +32,7 @@ export function exploreData() {
             library: "migrate, mysql, jwt,swagger",
             short_description: "project ini dibuat untuk belajar express js Rest API",
             description: "project ini dibuat untuk belajar express js Rest API",
-            period: timeFormat("2023-08", "MMMM YYYY"),
+            period: timeFormat("2023-08", "MMM YYYY"),
             images: [
 
             ],
@@ -51,7 +51,7 @@ export function exploreData() {
             library: "axos",
             short_description: "",
             description: "",
-            period: timeFormat("2023-08", "MMMM YYYY"),
+            period: timeFormat("2023-08", "MMM YYYY"),
             images: [
 
             ],
