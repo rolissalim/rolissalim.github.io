@@ -17,7 +17,7 @@ export function freelanceData() {
                 "menganalisis relasi table",
             ],
             company: "PT Quadran",
-            period: timeFormat("2020-09", "MMMM YYYY"),
+            period: timeFormat("2020-09", "MMM YYYY"),
             status: "Production",
             type:"freelance"
         },
@@ -37,7 +37,7 @@ export function freelanceData() {
             ],
             company: "PT Quadran",
             status: "Production",
-            period: timeFormat("2020-09", "MMMM YYYY"),
+            period: timeFormat("2020-09", "MMM YYYY"),
             images: [
                 "/static/siap/dashboard.png"
             ],
@@ -59,7 +59,7 @@ export function freelanceData() {
             ],
             company: "PT Quadran",
             status: "Production",
-            period: timeFormat("2020-09", "MMMM YYYY"),
+            period: timeFormat("2020-09", "MMM YYYY"),
             images: [
                 "/static/info-pdm/dashboard.png"
             ],
@@ -146,7 +146,7 @@ export function freelanceData() {
                 "bugfix"
             ],
             company: "PT. KAI DAOP 2 Bandung",
-            period: timeFormat("2013-06", "MMMM YYYY"),
+            period: timeFormat("2013-06", "MMM YYYY"),
             images: [
                 "/static/inventory-obat/data-obat.png"
             ],
@@ -171,7 +171,7 @@ export function freelanceData() {
                 "bugfix"
             ],
             company: "PT. KAI DAOP 2 Bandung",
-            period: timeFormat("2013-06", "MMMM YYYY"),
+            period: timeFormat("2013-06", "MMM YYYY"),
 
             images: null,
             status: "Production",
