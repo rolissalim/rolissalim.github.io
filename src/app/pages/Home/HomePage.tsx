@@ -1,3 +1,4 @@
+import TitlePage from '@app/components/Title/TitlePage'
 import { exploreData } from '@app/configs/data/explore-data'
 import { freelanceData } from '@app/configs/data/freelance-data'
 import { projectData } from '@app/configs/data/project-data'
@@ -26,18 +27,15 @@ function HomePage() {
     return (
         <>
             <div className='mb-1'>
-                <h6 className="fw-bold">{t("Latest Projects")}</h6>
-                <hr className='text-muted' />
+                <TitlePage title='Latest Projects'/>
                 <ListCatalog data={dataProjects} />
             </div>
             <div className='mb-1'>
-                <h6 className="fw-bold">{t("Latest Freelances")}</h6>
-                <hr className='text-muted' />
+                <TitlePage title='Latest Freelances'/>
                 <ListCatalog data={dataFreelances} />
             </div>
             <div className='mb-1'>
-                <h6 className="fw-bold">{t("Latest Explores")}</h6>
-                <hr className='text-muted' />
+                <TitlePage title='Latest Explores'/>
                 <ListCatalog data={dataExplores} />
             </div>
         </>
