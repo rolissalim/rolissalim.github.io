@@ -11,7 +11,7 @@ const ProjectPage = () => {
             <div>
                 <h6>{t("Projects Data")}</h6>
                 <hr className='text-muted' />
-                <ListCatalog data={dataProjects} />
+                <ListCatalog data={dataProjects} className='animate__animated animate__zoomIn' />
             </div >
         </>
     )

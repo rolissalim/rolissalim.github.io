@@ -10,7 +10,7 @@ function ExplorePage() {
         <>
             <div>
                 <TitlePage title='Explores Data'/>
-                <ListCatalog data={dataExplores} />
+                <ListCatalog data={dataExplores} className='animate__animated animate__zoomIn'/>
             </div >
         </>
     )

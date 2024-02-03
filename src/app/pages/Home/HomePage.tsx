@@ -28,15 +28,15 @@ function HomePage() {
         <>
             <div className='mb-1'>
                 <TitlePage title='Latest Projects'/>
-                <ListCatalog data={dataProjects} />
+                <ListCatalog data={dataProjects} className='animate__animated animate__slideInLeft' />
             </div>
             <div className='mb-1'>
                 <TitlePage title='Latest Freelances'/>
-                <ListCatalog data={dataFreelances} />
+                <ListCatalog data={dataFreelances}  className='animate__animated animate__slideInRight'  />
             </div>
             <div className='mb-1'>
                 <TitlePage title='Latest Explores'/>
-                <ListCatalog data={dataExplores} />
+                <ListCatalog data={dataExplores}   className='animate__animated animate__slideInLeft' />
             </div>
         </>
     )

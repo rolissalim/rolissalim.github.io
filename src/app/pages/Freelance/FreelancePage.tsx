@@ -9,7 +9,7 @@ const FreelancePage = () => {
         <>
             <div>
                 <TitlePage title='Freelances Data'/>
-                <ListCatalog data={data} />
+                <ListCatalog data={data} className='animate__animated animate__zoomIn'/>
             </div >
         </>
     )

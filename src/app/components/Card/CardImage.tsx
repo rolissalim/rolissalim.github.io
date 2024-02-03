@@ -6,6 +6,7 @@ export default function CardImage({
     children,
     variant = "",
     className = "",
+    classNameBody = "",
     image,
     height = "10rem",
     handleSelected,
@@ -21,7 +22,7 @@ export default function CardImage({
                 <div className={` ${handleSelected ? " pointer " : ""}`} style={{ height: height }} onClick={() => handleClick(item)}>
                     <LazyImage src={image} className="fit card-img-top" defaultImage='/static/no-image.svg' />
                 </div>
-                <Card.Body>
+                <Card.Body className={classNameBody}>
                     {children}
                 </Card.Body>
             </Card>
@@ -37,6 +38,7 @@ interface ICardImage {
     item?: any
     children?: any
     className?: string;
+    classNameBody?:string
     variant?: '' | 'Primary' | 'Secondary' | 'Success' | 'Danger' | 'Warning' | 'Info' | 'Light' | 'Dark'
 
 }

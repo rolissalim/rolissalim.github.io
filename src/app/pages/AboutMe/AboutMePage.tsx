@@ -10,14 +10,21 @@ function AboutMePage() {
         <>
             <Row>
                 <Col lg={5}>
-                    <ProfileImage />
-                    <Profile />
-
+                    <div className='animate__animated animate__zoomInDown'>
+                        <ProfileImage />
+                    </div>
+                    <div className='animate__animated animate__zoomInUp'>
+                        <Profile />
+                    </div>
                     {/* <SocialMedia /> */}
                 </Col>
                 <Col lg={7}>
-                    <Experiences />
-                    <Skills />
+                    <div className='animate__animated animate__zoomInRight'>
+                        <Experiences />
+                    </div>
+                    <div className='animate__animated animate__zoomInRight'>  
+                        <Skills />
+                    </div>      
                 </Col>
             </Row>
         </>
