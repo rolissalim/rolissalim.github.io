@@ -22,7 +22,7 @@ export default function CarouselImage({
         <>
             <div>
                 <div className="" style={{ height: height }}>
-                    <LazyImage src={image || "-"} className="fit-height card-img-top" />
+                    <LazyImage src={image || "-"} className="object-contain card-img-top" />
                 </div>
             </div>
             <ImageViewHorizontal

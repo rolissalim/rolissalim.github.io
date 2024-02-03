@@ -4,6 +4,12 @@
     width: 100%;
 }
 
+.object-contain {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
 .fit-height {
     object-fit: cover;
     height: 100%;
