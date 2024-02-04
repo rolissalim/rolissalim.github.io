@@ -39,7 +39,7 @@ const ListCatalog = ({
                         <CardImage
                             handleSelected={handleClick}
                             item={item}
-                            className={`shadow-sm border-0 ${className}`} 
+                            className={`shadow-sm ${className}`} 
                             classNameBody='catalog-content'
                             image={item?.images?.[0] || "-"}>
                             <Card.Title className='h6'>

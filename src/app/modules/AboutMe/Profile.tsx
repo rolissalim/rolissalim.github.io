@@ -7,7 +7,7 @@ function Profile() {
     const data = biodata()
     const dataRight = biodataRight()
     return (
-        <CardComponent className='shadow-sm mb-2 border-0'>
+        <CardComponent className='shadow-sm mb-2'>
             <Row>
                 <Col md={7} sm={12}>
                     {data?.map((item: any, index: number) =>

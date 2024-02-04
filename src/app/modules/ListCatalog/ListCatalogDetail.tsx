@@ -1,7 +1,6 @@
 import React from 'react'
 import CarouselImage from '../Carousel/CarouselImage'
 import { Col, Row } from 'react-bootstrap';
-import TitlePage from '@app/components/Title/TitlePage';
 import Description from '@app/components/Description/Description';
 
 interface IListCatalogDetail {
@@ -17,7 +16,6 @@ function ListCatalogDetail({
             <Row>
                 <Col lg={8}><CarouselImage images={dataSelected?.images} /></Col>
                 <Col lg={4}>
-                    <TitlePage title={dataSelected?.name}/>
                     <Description data={dataSelected?.description}/>
                 </Col>
 

@@ -7,7 +7,7 @@ function Skills() {
     const data = skillExperience()
     return (
         <>
-            <CardComponent className='mb-2 shadow-sm border-0'>
+            <CardComponent className='mb-2 shadow-sm '>
 
                 {data?.map((item: any, index: number) =>
                     <div key={index} className='my-2'>
