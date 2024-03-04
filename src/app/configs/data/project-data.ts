@@ -571,7 +571,7 @@ export function projectData() {
             ],
             status: "Cancel",
             link: null,
-            source_code:null,
+            source_code:"https://gitlab.com/angular9770309/smart-city-angular-8",
             data_source:"Rest API",
             type: "project",
             keyword: "angular 9, bootstrap, jwt, "

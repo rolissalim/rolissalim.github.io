@@ -9,14 +9,12 @@ interface IListCatalogDetail {
 function ListCatalogDetail({
     dataSelected
 }: IListCatalogDetail) {
-    console.log("dataSelected",dataSelected);
-    
     return (
         <>
             <Row>
                 <Col lg={8}><CarouselImage images={dataSelected?.images} /></Col>
                 <Col lg={4}>
-                    <Description data={dataSelected?.description}/>
+                    <Description data={dataSelected?.description}/>    
                 </Col>
 
             </Row>
