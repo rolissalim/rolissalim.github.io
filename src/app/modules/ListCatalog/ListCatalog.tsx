@@ -8,14 +8,17 @@ import { useTranslation } from 'react-i18next'
 import ListCatalogDetail from './ListCatalogDetail'
 import { Link } from 'react-router-dom'
 import { truncate } from '@app/helpers/String.helper'
+import Status from '@app/components/Status/Status'
+import Time from '@app/components/Time/Time'
+import LinkAccess from '@app/components/Info/LinkAccess'
 
 interface IListCatalog {
     data: any
-    className?:string
+    className?: string
 }
 const ListCatalog = ({
     data,
-    className=""
+    className = ""
 }: IListCatalog) => {
     const { t } = useTranslation()
     const [dataSelected, setDataSelected] = useState<any>()
@@ -33,13 +36,13 @@ const ListCatalog = ({
 
     return (
         <>
-            <Row >  
+            <Row >
                 {data?.map((item: any, index: number) =>
                     <Col className={`mb-2 `} lg={3} md={4} sm={6} xs={12} key={index}>
                         <CardImage
                             handleSelected={handleClick}
                             item={item}
-                            className={`shadow-sm ${className}`} 
+                            className={`shadow-sm ${className}`}
                             classNameBody='catalog-content'
                             image={item?.images?.[0] || "-"}>
                             <Card.Title className='h6'>
@@ -48,19 +51,19 @@ const ListCatalog = ({
                             <div> {item?.program_language} </div>
                             <div className="mb-1 fs-7 text-muted small list-content">{item?.short_description}</div>
                             <div className="d-flex justify-content-between mb-1">
-                                {item?.source_code ? <Link to={item?.source_code} target='_blank'>source code</Link> : null}
-                                {item?.link ? <Link to={item?.link} target='_blank'>view web</Link> : null}
+                                <LinkAccess link={item?.source_code} title='source code' />
+                                <LinkAccess link={item?.link} title='view web' />
                             </div>
                             <div className=' position-absolute fixed-bottom list-footer px-3 pb-2'>
                                 <div className="d-flex justify-content-between mb-1">
-                                    <div className="">{item?.period}</div>
-                                    <div className=""><Badge bg={get(statusConfig(), item?.status) || "primary"}>{item?.status}</Badge></div>
+                                    <Time date={item?.period}/>
+                                    <Status status={item?.status}/>
                                 </div>
-                            </div>    
+                            </div>
                         </CardImage >
                     </Col >
                 )}
-            </Row>
+            </Row >
             <ModalData modalProps={modal} >
                 <ListCatalogDetail dataSelected={dataSelected} />
             </ModalData>

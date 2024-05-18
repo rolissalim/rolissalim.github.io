@@ -10,6 +10,7 @@ const Description = ({data,height="12rem"}:IDescription) => {
 
   return (
     <div style={{height:height}}>
+      <div className='fw-semibold'>Description</div>
       <PerfectScrollbar >
             <div>
                 {data}
