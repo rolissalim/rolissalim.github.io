@@ -3,9 +3,52 @@ import { timeFormat } from "@app/helpers/Time.helper";
 export function exploreData() {
     return [
         {
-            name: "learning Next JS",
+            name: "Store Online Client Rest API",
             alias: null,
             headline: true,
+            program_language: "Python",
+            framework: "Fastapi",
+            library: "sqlalchemy",
+            short_description: "Explore Fastapi ",
+            description: "Explore Fastapi ",
+            period: timeFormat("2024-07", "MMM YYYY"),
+            images: [
+                "/static/store-online-client-fastapi/01.png",
+                "/static/store-online-client-fastapi/02.png",
+                "/static/store-online-client-fastapi/03.png",
+            ],
+            task: [
+                "role sebagai BE"
+            ],
+            source_code: "https://gitlab.com/python9892210/store_online.git",
+            type:"explore"
+        },
+        {
+            name: "Store Online CMS Rest API",
+            alias: null,
+            headline: true,
+            program_language: "Python",
+            framework: "fastapi",
+            library: "sqlalchemy,MySQL",
+            short_description: "Explore Fastapi ",
+            description: "Explore Fastapi ",
+            period: timeFormat("2024-07", "MMM YYYY"),
+            images: [
+                "/static/store-online-cms-fastapi/01.png",
+                "/static/store-online-cms-fastapi/02.png",
+                "/static/store-online-cms-fastapi/03.png",
+                "/static/store-online-cms-fastapi/04.png",
+            ],
+            task: [
+                "role sebagai BE"
+            ],
+            source_code: "https://gitlab.com/python9892210/store_online_cms_api.git",
+            type:"explore"
+        },
+        {
+            name: "learning Next JS",
+            alias: null,
+            headline: false,
             program_language: "React JS",
             framework: "Next JS",
             library: "axios",
@@ -64,7 +107,7 @@ export function exploreData() {
         {
             name: "Explore Aplikasi Desa",
             alias: null,
-            headline: true,
+            headline: false,
             program_language: "PHP",
             framework: "laravel 8",
             library: "bootstrap, jquery,javascript",
