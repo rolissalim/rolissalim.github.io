@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrolissalim_github_io=self.webpackChunkrolissalim_github_io||[]).push([[870],{1870:(e,t,a)=>{a.r(t),a.d(t,{default:()=>s});var l=a(7294);const s=function(){return l.createElement("div",null,"contact page",l.createElement("hr",{className:"text-muted"}))}}}]);
