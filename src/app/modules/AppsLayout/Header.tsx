@@ -6,10 +6,10 @@ import { Link, useLocation } from 'react-router-dom'
 
 const Header = () => {
     const { t } = useTranslation()
-    const [page, setPage] = useState<any>("/home")
+    const [page, setPage] = useState<any>("/")
     const location = useLocation()
     useEffect(() => {
-        let page = location.pathname != "/" ? location.pathname : "/home"
+        let page = location.pathname != "/" ? location.pathname : "/"
         setPage(page)
     }, [location.pathname])
 

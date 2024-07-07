@@ -13,7 +13,6 @@ import FreelanceRoute from './Freelance/FreelanceRoute';
 
 const HomePage = React.lazy(() => import("@app/pages/Home/HomePage"))
 const AboutMePage = React.lazy(() => import("@app/pages/AboutMe/AboutMePage"))
-const ContactPage = React.lazy(() => import("@app/pages/Contact/ContactPage"))
 
 // import axios from 'axios';
 
