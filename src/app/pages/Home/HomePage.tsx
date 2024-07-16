@@ -24,6 +24,8 @@ function HomePage() {
         })
     }, [])
 
+    console.log("data explore",dataExplores)
+
     return (
         <>
             <div className='mb-1'>
