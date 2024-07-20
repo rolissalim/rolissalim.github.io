@@ -14,17 +14,16 @@ function HomePage() {
 
     useEffect(() => {
         setDataProjects(() => {
-            return projectData().filter((item: any) => { return item?.headline })
+            return projectData().filter((item: any) => { return item?.headline=="true" })
         })
         setDataExplores(() => {
-            return exploreData().filter((item: any) => { return item?.headline })
+            return exploreData().filter((item: any) => { return item?.headline=="true" })
         })
         setDataFreelances(() => {
-            return freelanceData().filter((item: any) => { return item?.headline })
+            return freelanceData().filter((item: any) => { return item?.headline=="true" })
         })
     }, [])
 
-    console.log("data explore",dataExplores)
 
     return (
         <>
