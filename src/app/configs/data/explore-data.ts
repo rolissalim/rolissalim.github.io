@@ -1,6 +1,46 @@
 export function exploreData() {
     return [
         {
+            "name": "Store Online CMS Rest API",
+            "alias": null,
+            "headline": true,
+            "program_language": "Node JS",
+            "framework": "express JS",
+            "library": "mongoose,mongo-express,mongo db, zod, typescript, bcrypt,",
+            "short_description": "Store online cms with express js ",
+            "description": "Explore express js Rest API",
+            "period": "2024-07",
+            "images": [],
+            "task": [
+                "role sebagai BE",
+                "analisis"
+            ],
+            "source_code": "https://gitlab.com/nurdin_rolissalim/store_online_cms_express_mongo.git",
+            "type": "explore"
+        },
+        {
+            "name": "AI & Machine Learning",
+            "alias": null,
+            "headline": true,
+            "program_language": "React js",
+            "framework": "Next JS",
+            "library": "gemini AI, ant Design, tailwind, webpack, babel",
+            "short_description": "Explore AI dan machine learning",
+            "description": "Explore  AI dan machine learning with Next JS",
+            "period": "2024-07",
+            "images": [
+                "/static/ai-machine-learning/01.png",
+                "/static/ai-machine-learning/02.png",
+                "/static/ai-machine-learning/03.png",
+            ],
+            "task": [
+                "role sebagai Fullstack",
+                "analisis"
+            ],
+            "link": "https://web-ai-machine-learning-next-js.vercel.app",
+            "type": "explore"
+        },
+        {
             "name": "Store Online Client Rest API",
             "alias": null,
             "headline": true,
@@ -19,7 +59,7 @@ export function exploreData() {
                 "role sebagai BE"
             ],
             "source_code": "https://gitlab.com/python9892210/store_online.git",
-            "type":"explore"
+            "type": "explore"
         },
         {
             "name": "Store Online CMS Rest API",
@@ -41,7 +81,7 @@ export function exploreData() {
                 "role sebagai BE"
             ],
             "source_code": "https://gitlab.com/python9892210/store_online_cms_api.git",
-            "type":"explore"
+            "type": "explore"
         },
         {
             "name": "learning Next JS",
@@ -62,7 +102,7 @@ export function exploreData() {
                 "role sebagai FE"
             ],
             "source_code": "https://github.com/rolissalim/learning-next-JS",
-            "type":"explore"
+            "type": "explore"
         },
         {
             "name": "Express JS Rest API",
@@ -79,7 +119,7 @@ export function exploreData() {
                 "role sebagai BE"
             ],
             "source_code": "https://github.com/rolissalim/express-server-api",
-            "type":"explore"
+            "type": "explore"
         },
         {
             "name": "Java Spring Boot CRUD",
@@ -96,7 +136,7 @@ export function exploreData() {
                 "role sebagai BE"
             ],
             "source_code": "https://github.com/rolissalim/java_spring_crud",
-            "type":"explore"
+            "type": "explore"
         },
         {
             "name": "Explore Aplikasi Desa",
@@ -116,7 +156,7 @@ export function exploreData() {
             "period": "2021",
             "status": "change to React JS",
             "source_code": "https://gitlab.com/nurdin_rolissalim/aplikasi-desa",
-            "type":"explore"
+            "type": "explore"
         },
         {
             "name": "Aplikasi Politica Mobile",
@@ -127,12 +167,12 @@ export function exploreData() {
             "library": "Highcart",
             "short_description": "",
             "description": "",
-            "task": ["Role sebagai frontend","Membuat aplikasi semua fitur"],
+            "task": ["Role sebagai frontend", "Membuat aplikasi semua fitur"],
             "company": "PT eBdesk Teknologi",
             "period": "2017",
             "status": "Not used",
             "source_code": "https://gitlab.com/nurdin_rolissalim/explore-react-native",
-            "type":"explore"
+            "type": "explore"
         },
         {
             "name": "RE-Structure IMM",
@@ -147,7 +187,7 @@ export function exploreData() {
             "company": "PT eBdesk Teknologi",
             "period": 2015,
             "status": "has been upgraded",
-            "type":"explore"
+            "type": "explore"
         },
     ]
 }
