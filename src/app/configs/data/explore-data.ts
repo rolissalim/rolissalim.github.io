@@ -49,7 +49,7 @@ export function exploreData() {
             "library": "sqlalchemy",
             "short_description": "Explore Fastapi ",
             "description": "Explore Fastapi ",
-            "period": "2024-07",
+            "period": "2024-06",
             "images": [
                 "/static/store-online-client-fastapi/01.png",
                 "/static/store-online-client-fastapi/02.png",
@@ -70,7 +70,7 @@ export function exploreData() {
             "library": "sqlalchemy,MySQL",
             "short_description": "Explore Fastapi ",
             "description": "Explore Fastapi ",
-            "period": "2024-07",
+            "period": "2024-06",
             "images": [
                 "/static/store-online-cms-fastapi/01.png",
                 "/static/store-online-cms-fastapi/02.png",
@@ -81,6 +81,23 @@ export function exploreData() {
                 "role sebagai BE"
             ],
             "source_code": "https://gitlab.com/python9892210/store_online_cms_api.git",
+            "type": "explore"
+        },
+        {
+            "name": "Store Online CMS Rest API",
+            "alias": null,
+            "headline": true,
+            "program_language": "Java Spring Boot",
+            "framework": "Spring Boot",
+            "library": "",
+            "short_description": "",
+            "description": "",
+            "period": "2024-06",
+            "images": null,
+            "task": [
+                "role sebagai BE"
+            ],
+            "source_code": "https://gitlab.com/java-spring3820145/storeonlinerestapi",
             "type": "explore"
         },
         {
@@ -107,7 +124,7 @@ export function exploreData() {
         {
             "name": "Express JS Rest API",
             "alias": null,
-            "headline": true,
+            "headline": false,
             "program_language": "node JS",
             "framework": "express JS",
             "library": "migrate, mysql, jwt,swagger",

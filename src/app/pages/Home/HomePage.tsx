@@ -14,13 +14,13 @@ function HomePage() {
 
     useEffect(() => {
         setDataProjects(() => {
-            return projectData().filter((item: any) => { return item?.headline=="true" })
+            return projectData().filter((item: any) => { return item?.headline == "true" })
         })
         setDataExplores(() => {
-            return exploreData().filter((item: any) => { return item?.headline=="true" })
+            return exploreData().filter((item: any) => { return item?.headline })
         })
         setDataFreelances(() => {
-            return freelanceData().filter((item: any) => { return item?.headline=="true" })
+            return freelanceData().filter((item: any) => { return item?.headline == "true" })
         })
     }, [])
 
@@ -28,17 +28,18 @@ function HomePage() {
     return (
         <>
             <div className='mb-1'>
-                <TitlePage title='Latest Projects'/>
+                <TitlePage title='Latest Projects' />
                 <ListCatalog data={dataProjects} className='animate__animated animate__slideInLeft' />
             </div>
             <div className='mb-1'>
-                <TitlePage title='Latest Freelances'/>
-                <ListCatalog data={dataFreelances}  className='animate__animated animate__slideInRight'  />
+                <TitlePage title='Latest Explores' />
+                <ListCatalog data={dataExplores} className='animate__animated animate__slideInLeft' />
             </div>
             <div className='mb-1'>
-                <TitlePage title='Latest Explores'/>
-                <ListCatalog data={dataExplores}   className='animate__animated animate__slideInLeft' />
+                <TitlePage title='Latest Freelances' />
+                <ListCatalog data={dataFreelances} className='animate__animated animate__slideInRight' />
             </div>
+
         </>
     )
 }
