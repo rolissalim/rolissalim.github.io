@@ -15,7 +15,7 @@ const Header = () => {
 
     return (
         <>
-            <Navbar expand="xs" className="navbar navbar-expand-sm" bg="dark" data-bs-theme="dark">
+            <Navbar expand="xs" className="sticky-top navbar navbar-expand-sm" bg="dark" data-bs-theme="dark">
                 {/* <Navbar expand="sm" className="bg-body-tertiary mb-3" bg="dark" data-bs-theme="dark"> */}
                 <Container>
                     {/* <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand> */}
